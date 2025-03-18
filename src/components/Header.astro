@@ -1,48 +1,59 @@
 ---
 import removeTrailingSlash from "@/utils/removeTrailingSlash";
-import presentation from "@/data/presentation";
 import DarkModeToggle from "./DarkModeToggle.astro";
 
 const pathname = removeTrailingSlash(Astro.url.pathname);
 ---
 
-<main class="pb-16">
-  <header class="z-40 fixed bottom-0 left-0 w-full bg-neutral-900/90 backdrop-blur-md p-3 
-    md:relative md:bg-transparent md:backdrop-blur-none">
-    <div class="flex items-center justify-between w-full max-w-screen-lg mx-auto px-4">
+<main class="">
+  <header class="z-40 fixed bottom-0 left-0 w-full bg-white/80 dark:bg-neutral-900/90 backdrop-blur-md shadow-md 
+    md:relative md:bg-transparent md:dark:bg-transparent md:backdrop-blur-none md:shadow-none transition-all duration-300 
+    py-2 md:py-4"> <!-- Padding lebih kecil di mobile -->
+    
+    <div class="flex items-center justify-between w-full max-w-screen-lg mx-auto px-4 py-1 md:py-2">
       
-      <!-- Logo -->
-      <div class="flex items-center gap-2">
-        <img 
-          src="/icons/icon.png" 
-          alt="Fuji Logo" 
-          width="40" 
-          height="40" 
-          class="w-10 h-10"
-        />
-        <span class="text-lg font-semibold text-neutral-100 ">Fuji</span>
-      </div>
+      <!-- Logo (Gabungan Fuji & Terminal) -->
+      <a href="/" class="flex items-center gap-2 p-1 rounded-lg transition-all duration-200 hover:scale-105 hover:bg-neutral-200 dark:hover:bg-neutral-800">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
+          class="w-12 h-12 transition-all duration-200">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+            <path d="m8 9l3 3l-3 3m5 0h3"/>
+            <path d="M3 9.4c0-2.24 0-3.36.436-4.216a4 4 0 0 1 1.748-1.748C6.04 3 7.16 3 9.4 3h5.2c2.24 0 3.36 0 4.216.436a4 4 0 0 1 1.748 1.748C21 6.04 21 7.16 21 9.4v5.2c0 2.24 0 3.36-.436 4.216a4 4 0 0 1-1.748 1.748C17.96 21 16.84 21 14.6 21H9.4c-2.24 0-3.36 0-4.216-.436a4 4 0 0 1-1.748-1.748C3 17.96 3 16.84 3 14.6z"/>
+          </g>
+        </svg>
+        <span class="text-lg  font-semibold text-neutral-900 dark:text-white transition-all">Fuji</span>
+      </a>
 
-      <!-- Navigation -->
-      <nav role="navigation" class="flex items-center gap-6">
-        <ul role="list" class="flex flex-row gap-4 text-lg font-medium">
-          <li>
-            <a
-              href="/"
-              class:list={{
-                ["hover:text-neutral-100 "]: true,
-                ["text-neutral-100 "]: pathname === "/",
-              }}>Home</a>
+  <!-- Navigation -->
+  <nav class="flex justify-center items-center gap-10">
+    <ul class="flex flex-row items-center gap-4 text-lg font-medium">
+      <li>
+        <a href="/posts"
+        class="flex items-center justify-center gap-2 p-2 rounded-lg transition-all duration-200 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-800">
+        <!-- Ikon hanya muncul di mobile -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+          class="w-12 h-12 md:hidden transition-all duration-200">
+          <path fill="currentColor" d="M6 22q-.825 0-1.412-.587T4 20V4q0-.825.588-1.412T6 2h12q.825 0 1.413.588T20 4v16q0 .825-.587 1.413T18 22zm5-11l2.5-1.5L16 11V4h-5z"/>
+        </svg>
+
+        <!-- Tulisan "Blog" hanya muncul di desktop -->
+        <span class="hidden md:block text-xl font-semibold tracking-wide text-center">Blog</span>
+      </a>
           </li>
-          <li>/</li>
           <li>
-            <a
-              href="/posts"
-              class:list={{
-                ["hover:text-neutral-100 dark:hover:text-neutral-300"]: true,
-                ["text-neutral-100 dark:text-neutral-200"]: pathname === "/posts",
-              }}>Posts</a>
+            <a href="https://github.com/fujitime" target="_blank"
+              class="p-1 md:p-2 rounded-lg transition-all duration-200 
+                text-neutral-700 dark:text-neutral-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
+                class="md:w-12 md:h-12 transition-all duration-200">
+                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                  <path d="M10 20.568c-3.429 1.157-6.286 0-8-3.568"/>
+                  <path d="M10 22v-3.242c0-.598.184-1.118.48-1.588c.204-.322.064-.78-.303-.88C7.134 15.452 5 14.107 5 9.645c0-1.16.38-2.25 1.048-3.2c.166-.236.25-.354.27-.46c.02-.108-.015-.247-.085-.527c-.283-1.136-.264-2.343.16-3.43c0 0 .877-.287 2.874.96c.456.285.684.428.885.46s.469-.035 1.005-.169A9.5 9.5 0 0 1 13.5 3a9.6 9.6 0 0 1 2.343.28c.536.134.805.2 1.006.169c.2-.032.428-.175.884-.46c1.997-1.247 2.874-.96 2.874-.96c.424 1.087.443 2.294.16 3.43c-.07.28-.104.42-.084.526s.103.225.269.461c.668.95 1.048 2.04 1.048 3.2c0 4.462-2.134 5.807-5.177 6.643c-.367.101-.507.559-.303.88c.296.47.48.99.48 1.589V22"/>
+                </g>
+              </svg>
+            </a>
           </li>
+          
         </ul>
 
         <!-- Dark Mode Toggle -->

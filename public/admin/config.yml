@@ -1,14 +1,14 @@
 backend:
   name: github
-  repo: gxanshu/astro-decap-cms-starter #replace with your githu repo
-  branch: main
+  repo: https://github.com/Fujitime/porto
+  branch: master
   squash_merges: true
   open_authoring: true
 
 publish_mode: editorial_workflow
 media_folder: public/images
 public_folder: /images
-site_url: "https://astro-decapcms-starter.netlify.app/" # your site name
+site_url: https://fuji-halim-rabani.netlify.app/ 
 
 collections:
   - name: post

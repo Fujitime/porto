@@ -1,4 +1,5 @@
 ---
+
 import { SEO } from "astro-seo";
 import { SITE_URL } from "@/data/config";
 
@@ -17,16 +18,16 @@ type Props = {
 
 const { title, description, noindex, og } = Astro.props;
 
-const DEFAULT_TITLE_PAGE = "Astro & decap CMS - starter";
+const DEFAULT_TITLE_PAGE = "Fuji Halim Rabani - Internet Explorer (Not the Browser)";
 const DEFAULT_DESCRIPTION_PAGE =
-  "A minimal starter built with Astro & Decap CMS and Tailwindcss.";
+  "Hi, I'm Fuji aka Waltahh, a self-proclaimed internet explorer. I spend my time learning, reading manga, watching anime, and scrolling endlessly. Sometimes, I write and exercise too.";
 const DEFAULT_URL_SITE = SITE_URL;
 
 const openGraph = {
   title: og?.title || DEFAULT_TITLE_PAGE,
   type: og?.type || "website",
   image: og?.image || "/opengraph-image.jpg",
-  alt: og?.alt || "astro starter image",
+  alt: og?.alt || "Fuji Halim Rabani - Internet Explorer",
   url: DEFAULT_URL_SITE,
   description: og?.description || DEFAULT_DESCRIPTION_PAGE,
 };
@@ -49,7 +50,7 @@ const openGraph = {
       },
     }}
     twitter={{
-      creator: "@itsstormzz_",
+      creator: "@your_twitter_handle",
     }}
     extend={{
       link: [
@@ -66,7 +67,7 @@ const openGraph = {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: openGraph.title },
         { name: "twitter:description", content: openGraph.description },
-        { name: "twitter:site", content: "@itsstormzz_" },
+        { name: "twitter:site", content: "@your_twitter_handle" },
       ],
     }}
   />
