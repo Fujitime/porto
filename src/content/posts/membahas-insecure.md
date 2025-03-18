@@ -14,7 +14,9 @@ Yaitu insecure. Hal ini harus diatasi. Jika tidak… ya, nggak apa-apa? :v
 
 Tapi kalau kalian mau tahu sesuatu, silakan lanjut baca, saya yakin atas izin tuhan bisa bermanfaat.
 
- — — — — — 
+
+
+![Kucing](/images/cd9888f9d3e17ce0ff5a798130ea8196.jpg "Kucing")
 
 Beberapa menit yang lalu, saya duduk sendirian di kamar, scroll Facebook berjam-jam. Tiba-tiba muncul rekomendasi teman dengan foto profil Frieren. Sebagai jiwa penjelajah internet, penasaran dong? Stalker, ah.
 
@@ -85,7 +87,5 @@ Kepercayaan diri datang bukan dari jadi hebat, tapi dari sadar bahwa semua orang
 Kamu bukan the worst person. Mereka kelihatan keren dan baik karena kamu gak bisa lihat isi hati mereka.
 
 Sedangkan kamu? kamu tahu betul gimana rasanya ada di posisi tidak enak yang orang lain tidak tahu.
-
-foto
 
 Dan satu fakta simpel lainnya — tapi masih banyak yang belum sadar — adalah… orang lain nggak akan tahu isi kepalamu dan perasaanmu sampai kamu benar-benar bisa menyampaikannya.
