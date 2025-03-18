@@ -1,0 +1,109 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import formatDate from "@/utils/formatDate";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts");
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+type Props = {
+  post: CollectionEntry<"posts">;
+};
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+
+<Layout title={post.data.title}>
+  <main class="post mx-auto flex w-full max-w-prose flex-col gap-4">
+    <header role="presentation" class="mb-4">
+      <h1 class="text-xl font-bold text-text-light dark:text-neutral-100 mb-2">
+        {post.data.title}
+      </h1>
+      <div class="flex items-center gap-2 text-muted-light dark:text-neutral-400 text-sm">
+        <time datetime={post.data.publishedAt.toISOString()}>
+          {formatDate(post.data.publishedAt)}
+        </time>
+      </div>
+      <p class="italic text-muted-light dark:text-neutral-400 mt-2">{post.data.description}</p>
+    </header>
+
+    <div class="prose prose-slate dark:prose-invert prose-headings:text-text-light dark:prose-headings:text-neutral-100
+      prose-p:text-text-light dark:prose-p:text-neutral-300 prose-a:text-accent-light dark:prose-a:text-orange-500
+      max-w-none">
+      <Content />
+    </div>
+  </main>
+</Layout>
+
+<style is:global>
+  /* Override default post.css styles for light mode */
+  .dark .post h1,
+  .dark .post h2,
+  .dark .post h3,
+  .dark .post h4,
+  .dark .post h5 {
+    color: theme('colors.neutral.100');
+  }
+
+  .post h1,
+  .post h2,
+  .post h3,
+  .post h4,
+  .post h5 {
+    color: theme('colors.text.light');
+  }
+
+  .post p, .post li {
+    color: theme('colors.muted.light');
+  }
+
+  .dark .post p,
+  .dark .post li {
+    color: theme('colors.neutral.300');
+  }
+
+  .post a {
+    color: theme('colors.accent.light');
+    text-decoration: underline;
+  }
+
+  .dark .post a {
+    color: theme('colors.orange.500');
+  }
+
+  .post code {
+    background-color: theme('colors.secondary.light');
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+  }
+
+  .dark .post code {
+    background-color: theme('colors.neutral.800');
+  }
+
+  .post pre {
+    background-color: theme('colors.secondary.light');
+    border: 1px solid theme('colors.border.light');
+    border-radius: 0.375rem;
+    padding: 1rem;
+    overflow-x: auto;
+  }
+
+  .dark .post pre {
+    background-color: theme('colors.neutral.900');
+    border-color: theme('colors.neutral.700');
+  }
+
+  .post pre code {
+    background-color: transparent;
+    padding: 0;
+  }
+</style>

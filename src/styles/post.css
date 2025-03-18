@@ -1,0 +1,37 @@
+/* Base post styles that are enhanced by the component-specific styles */
+.post p {
+  @apply leading-7;
+}
+
+.post code {
+  @apply rounded-sm px-1 py-[2px];
+}
+
+.post h2 {
+  @apply mt-6 text-3xl;
+}
+
+.post h3 {
+  @apply mt-4 text-xl;
+}
+
+.post a {
+  @apply underline;
+}
+
+.post ul {
+  @apply list-disc;
+}
+
+.post blockquote {
+  @apply flex flex-row gap-2 before:block before:h-auto before:w-1 before:max-w-[1px] before:content-[''];
+  @apply before:bg-accent-light dark:before:bg-orange-500;
+}
+
+.post pre {
+  @apply p-4 rounded-md;
+}
+
+.post pre > code {
+  @apply bg-transparent p-0;
+}

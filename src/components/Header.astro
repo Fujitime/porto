@@ -1,0 +1,53 @@
+---
+import removeTrailingSlash from "@/utils/removeTrailingSlash";
+import presentation from "@/data/presentation";
+import DarkModeToggle from "./DarkModeToggle.astro";
+
+const pathname = removeTrailingSlash(Astro.url.pathname);
+---
+
+<main class="pb-16">
+  <header class="z-40 fixed bottom-0 left-0 w-full bg-neutral-900/90 backdrop-blur-md p-3 
+    md:relative md:bg-transparent md:backdrop-blur-none">
+    <div class="flex items-center justify-between w-full max-w-screen-lg mx-auto px-4">
+      
+      <!-- Logo -->
+      <div class="flex items-center gap-2">
+        <img 
+          src="/icons/icon.png" 
+          alt="Fuji Logo" 
+          width="40" 
+          height="40" 
+          class="w-10 h-10"
+        />
+        <span class="text-lg font-semibold text-neutral-100 ">Fuji</span>
+      </div>
+
+      <!-- Navigation -->
+      <nav role="navigation" class="flex items-center gap-6">
+        <ul role="list" class="flex flex-row gap-4 text-lg font-medium">
+          <li>
+            <a
+              href="/"
+              class:list={{
+                ["hover:text-neutral-100 "]: true,
+                ["text-neutral-100 "]: pathname === "/",
+              }}>Home</a>
+          </li>
+          <li>/</li>
+          <li>
+            <a
+              href="/posts"
+              class:list={{
+                ["hover:text-neutral-100 dark:hover:text-neutral-300"]: true,
+                ["text-neutral-100 dark:text-neutral-200"]: pathname === "/posts",
+              }}>Posts</a>
+          </li>
+        </ul>
+
+        <!-- Dark Mode Toggle -->
+        <DarkModeToggle />
+      </nav>
+    </div>
+  </header>
+</main>
