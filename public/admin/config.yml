@@ -1,14 +1,14 @@
 backend:
   name: github
-  repo: https://github.com/Fujitime/porto
-  branch: master
+  repo: Fujitime/porto
+  branch: main
   squash_merges: true
   open_authoring: true
 
 publish_mode: editorial_workflow
 media_folder: public/images
 public_folder: /images
-site_url: https://fuji-halim-rabani.netlify.app/ 
+site_url: "https://fuji-halim-rabani.netlify.app"
 
 collections:
   - name: post
@@ -16,11 +16,12 @@ collections:
     folder: src/content/posts
     create: true
     format: frontmatter
-    preview_path: post/{{slug}}
+    preview_path: posts/{{slug}}
     fields:
-      - { name: title, label: Title }
-      - { name: description, label: Description }
+      - { name: title, label: Title, widget: string }
+      - { name: description, label: Description, widget: string }
       - { name: publishedAt, label: Date, widget: date }
-      - {label: "Publish", name: "isPublish", widget: "boolean", default: true}
-      - {label: "Draft", name: "isDraft", widget: "boolean", default: false}
+      - { name: slug, label: Slug, widget: string }
+      - { name: image, label: Image, widget: image, required: false }
+      - { label: "Publish", name: "isPublish", widget: "boolean", default: true }
       - { name: body, label: Body, widget: markdown }
