@@ -26,3 +26,13 @@ collections:
       - { name: image, label: Image, widget: image, required: false }
       - { label: "Publish", name: "isPublish", widget: "boolean", default: true }
       - { name: body, label: Body, widget: markdown }
+      - 
+        name: category
+        label: Category
+        widget: select
+        options:
+          - Tech
+          - Personal
+          - Self Improvement
+          - Others
+        default: Others  
