@@ -4,11 +4,12 @@ import formatDate from "@/utils/formatDate";
 type Props = {
   title: string;
   publishedAt: Date;
-  description: string;
-  slug: string;
+  description?: string;
+  slug?: string;
+  image?: string,
 };
 
-const { title, publishedAt, description, slug } = Astro.props;
+const { title, publishedAt, description, slug, image } = Astro.props;
 ---
 
 <a
@@ -23,6 +24,13 @@ const { title, publishedAt, description, slug } = Astro.props;
   <div
     class="flex w-full flex-col justify-between gap-2 md:flex-row md:items-center"
   >
+  {image && (
+    <img
+      src={image}
+      alt={title}
+      class="w-16 h-16 object-cover rounded-md"
+    />
+  )}
     <p class="text-text-light font-medium dark:text-neutral-100">{title}</p>
     <div class="flex flex-row items-center gap-4">
       <p class="text-muted-light dark:text-neutral-400">{formatDate(publishedAt)}</p>
