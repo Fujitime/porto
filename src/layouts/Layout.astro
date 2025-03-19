@@ -4,7 +4,7 @@ import Footer from "@/components/Footer.astro";
 import BlurCircle from "@/components/shared/BlurCircle.astro";
 import theme from "@/data/theme";
 import SEOTags from "@/components/seo/SEOTags.astro";
-
+import Cookie from "@/components/Cookie.astro";
 import "@fontsource/open-sans";
 import "@/styles/tailwind.css";
 import "@/styles/post.css";
@@ -16,23 +16,27 @@ export interface Props {
 const { title } = Astro.props;
 ---
 
-
 <!DOCTYPE html>
 <html lang="en">
   <SEOTags title={title} />
   <body
-  class="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9
-  bg-primary-light text-text-light dark:bg-neutral-950 dark:text-neutral-400
-  px-6 md:px-10 py-6 md:py-16 transition-colors duration-300"
->
-  <div class="w-full max-w-3xl mx-auto">
-    <Header />
-  </div>
+    class="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9
+    bg-primary-light text-text-light dark:bg-neutral-950 dark:text-neutral-400
+    px-6 md:px-10 py-6 md:py-16 transition-colors duration-300"
+  >
+    <div class="w-full max-w-3xl mx-auto">
+      <Header />
+    </div>
 
-  <BlurCircle position="top" color={theme.colors.blur.top} />
-  <BlurCircle position="bottom" color={theme.colors.blur.bottom} />
-  <slot />
-<Footer/>
+    <BlurCircle position="top" color={theme.colors.blur.top} />
+    <BlurCircle position="bottom" color={theme.colors.blur.bottom} />
+
+    <slot />
+
+    <!-- Memanggil Komponen Cookie di sini -->
+    <Cookie />
+
+    <Footer />
     <style is:global>
       html {
         font-family: "Open Sans";
@@ -44,13 +48,10 @@ const { title } = Astro.props;
         transition-duration: 300ms;
       }
     </style>
-
     <script>
       const initTheme = () => {
         const savedTheme = localStorage.getItem('theme') || 'dark';
-
-        if (savedTheme === 'dark' ||
-          (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
           document.documentElement.classList.add('dark');
         } else {
           document.documentElement.classList.remove('dark');

@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-
+import Cookie from "@/components/Cookie.astro";
 import Layout from "@/layouts/Layout.astro";
 import SocialLinks from "@/components/SocialLinks.astro";
 import PostCard from "@/components/PostCard.astro";
@@ -39,30 +39,35 @@ const posts = await getCollection("posts");
         <h3 class="text-lg font-medium text-text-light dark:text-neutral-100">Latest posts</h3>
         <Link href="/posts" label="See all posts" isUnderline target="_self" />
       </header>
-      {posts.length === 0 && <p class="text-muted-light dark:text-neutral-400">Soon, stay connected 👀...</p>}
+      {posts.length === 0 && (
+        <p class="text-muted-light dark:text-neutral-400">Soon, stay connected 👀...</p>
+      )}
       <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
-        {posts.length !== 0 &&
-          posts.slice(0, 2).map((post) => (
-            <div class="flex flex-col md:flex-row md:max-w-[500px] gap-4">
-              <PostCard
-                publishedAt={post.data.publishedAt}
-                title={post.data.title}
-                description={post.data.description}
-                slug={post.slug}
-                image={post.data.image}
-              />
-           
-            </div>
-          ))}
+        {posts.length !== 0 && 
+          posts
+            .sort((a, b) => new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime())
+            .slice(0, 2) 
+            .map((post) => (
+              <div class="flex flex-col md:flex-row md:max-w-[500px] gap-4">
+                <PostCard
+                  publishedAt={post.data.publishedAt}
+                  title={post.data.title}
+                  description={post.data.description}
+                  slug={post.slug}
+                  image={post.data.image}
+                />
+              </div>
+            ))}
       </section>
-      
     </article>
+    
 
 
     <article class="flex flex-col gap-8">
       <p class="text-text-light dark:text-neutral-400">
-        Email me at <Link href="mailto:fujihalimrabani1601@gmail.com" label="fujihalimrabani1601@example.com" />
+        Email me at <Link href="mailto:fujihalimrabani1601@gmail.com" label="fujihalimrabani1601@gmail.com" />
       </p>
     </article>
+        <Cookie /> 
   </main>
 </Layout>

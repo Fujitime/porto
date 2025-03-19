@@ -1,11 +1,10 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import formatDate from "@/utils/formatDate"; 
 
-// Ambil API Key dan Channel ID dari environment variables
 const API_KEY = import.meta.env.YOUTUBE_API_KEY;
 const CHANNEL_ID = import.meta.env.YOUTUBE_CHANNEL_ID;
 
-// Tipe data untuk video yang akan diambil dari YouTube API
 interface YouTubeVideo {
   id: { videoId: string };
   snippet: {
@@ -20,8 +19,9 @@ interface YouTubeChannel {
     title: string;
     description: string;
     thumbnails: {
-[x: string]: any; medium: { url: string } 
-};
+      [x: string]: any;
+      medium: { url: string };
+    };
   };
   statistics: {
     subscriberCount: string;
@@ -85,11 +85,9 @@ const fetchChannel = async (): Promise<YouTubeChannel | null> => {
 let allVideos: YouTubeVideo[] = [];
 let channelInfo: YouTubeChannel | null = null;
 
-// Fetch all videos and channel data
 allVideos = await fetchVideos();
 channelInfo = await fetchChannel();
 
-// Sort videos by published date (newest first)
 allVideos = allVideos.sort((a, b) => {
   const dateA = new Date(a.snippet.publishedAt).getTime();
   const dateB = new Date(b.snippet.publishedAt).getTime();
@@ -125,12 +123,12 @@ allVideos = allVideos.sort((a, b) => {
       <p class="text-neutral-500 dark:text-neutral-400">Gagal mengambil data channel.</p>
     )}
     
-       <h1 class="text-3xl font-bold text-text-light dark:text-neutral-100 mb-6 flex items-center gap-3">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20" class="text-accent-light dark:text-accent-dark">
-          <path fill="currentColor" d="M5.453 4.167a.726.726 0 0 0-1.027-.01A8.23 8.23 0 0 0 2 10a8.23 8.23 0 0 0 2.604 6.015a.725.725 0 0 0 1.01-.025c.316-.316.277-.819-.027-1.11A6.73 6.73 0 0 1 3.5 10c0-1.846.741-3.52 1.943-4.738c.29-.295.32-.785.01-1.095M7.214 5.93a.714.714 0 0 0-1.008-.016A5.73 5.73 0 0 0 4.5 10c0 1.692.73 3.213 1.893 4.265a.713.713 0 0 0 .983-.038c.328-.328.267-.844-.041-1.134A4.24 4.24 0 0 1 6 10c0-1.15.457-2.194 1.2-2.96c.286-.294.333-.793.014-1.111m5.572 0a.714.714 0 0 1 1.008-.016A5.73 5.73 0 0 1 15.5 10c0 1.692-.73 3.213-1.893 4.265a.713.713 0 0 1-.983-.038c-.328-.328-.267-.844.041-1.134A4.24 4.24 0 0 0 14 10c0-1.15-.457-2.194-1.2-2.96c-.286-.294-.333-.793-.014-1.111m1.761-1.762a.726.726 0 0 1 1.027-.01A8.23 8.23 0 0 1 18 10a8.23 8.23 0 0 1-2.604 6.015a.725.725 0 0 1-1.01-.025c-.316-.316-.277-.819.028-1.11A6.73 6.73 0 0 0 16.5 10c0-1.846-.741-3.52-1.943-4.738c-.29-.295-.32-.785-.01-1.095M10 8.5a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0-3"/>
-        </svg>
-        <span>Live Stream Log</span>
-      </h1>
+    <h1 class="text-3xl font-bold text-text-light dark:text-neutral-100 mb-6 flex items-center gap-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20" class="text-accent-light dark:text-accent-dark">
+        <path fill="currentColor" d="M5.453 4.167a.726.726 0 0 0-1.027-.01A8.23 8.23 0 0 0 2 10a8.23 8.23 0 0 0 2.604 6.015a.725.725 0 0 0 1.01-.025c.316-.316.277-.819-.027-1.11A6.73 6.73 0 0 1 3.5 10c0-1.846.741-3.52 1.943-4.738c.29-.295.32-.785.01-1.095M7.214 5.93a.714.714 0 0 0-1.008-.016A5.73 5.73 0 0 0 4.5 10c0 1.692.73 3.213 1.893 4.265a.713.713 0 0 0 .983-.038c.328-.328.267-.844-.041-1.134A4.24 4.24 0 0 1 6 10c0-1.15.457-2.194 1.2-2.96c.286-.294.333-.793.014-1.111m5.572 0a.714.714 0 0 1 1.008-.016A5.73 5.73 0 0 1 15.5 10c0 1.692-.73 3.213-1.893 4.265a.713.713 0 0 1-.983-.038c-.328-.328-.267-.844.041-1.134A4.24 4.24 0 0 0 14 10c0-1.15-.457-2.194-1.2-2.96c-.286-.294-.333-.793-.014-1.111m1.761-1.762a.726.726 0 0 1 1.027-.01A8.23 8.23 0 0 1 18 10a8.23 8.23 0 0 1-2.604 6.015a.725.725 0 0 1-1.01-.025c-.316-.316-.277-.819.028-1.11A6.73 6.73 0 0 0 16.5 10c0-1.846-.741-3.52-1.943-4.738c-.29-.295-.32-.785-.01-1.095M10 8.5a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0-3"/>
+      </svg>
+      <span>Live Stream Log</span>
+    </h1>
 
     {/* Daftar Video */}
     {allVideos.length > 0 ? (
@@ -151,7 +149,7 @@ allVideos = allVideos.sort((a, b) => {
                 {video.snippet.title}
               </h3>
               <p class="text-sm text-neutral-500 dark:text-neutral-400">
-                {new Date(video.snippet.publishedAt).toLocaleDateString()}
+                {formatDate(video.snippet.publishedAt)} {/* Use formatDate here */}
               </p>
             </div>
           </a>

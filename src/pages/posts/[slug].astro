@@ -92,8 +92,6 @@ const otherPosts = (await getCollection("posts"))
     if (!commentContainer) return;
     if (document.querySelector("script[src='https://utteranc.es/client.js']")) return;
 
-    console.log("Injecting Utterances script...");
-
     const script = document.createElement("script");
     script.src = "https://utteranc.es/client.js";
     script.setAttribute("repo", "fujitime/porto"); // Ganti dengan repo GitHub-mu

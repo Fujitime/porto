@@ -33,8 +33,8 @@ module.exports = {
           dark: '#27272a',
         },
         background: {
-          light: '#FFFFFF', // Latar belakang terang tetap putih
-          dark: 'linear-gradient(135deg, #3a3a3a 0%, #121212 100%)', // Gradien abu-abu halus untuk mode gelap
+          light: '#FFFFFF', 
+          dark: 'linear-gradient(135deg, #3a3a3a 0%, #121212 100%)', 
         },
       },
     },

@@ -5,6 +5,7 @@ publishedAt: 2025-03-18T10:45:26.976Z
 slug: Insecure
 image: /images/cd9888f9d3e17ce0ff5a798130ea8196.jpg
 isPublish: true
+category: Personal  
 ---
 \-﻿-----------------------------------------------------------------------------------
 

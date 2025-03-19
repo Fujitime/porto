@@ -4,6 +4,15 @@ import Layout from "@/layouts/Layout.astro";
 import formatDate from "@/utils/formatDate";
 
 const posts = await getCollection("posts");
+
+const groupedPosts = posts.reduce((acc, post) => {
+  const category = post.data.category; 
+  if (!acc[category]) {
+    acc[category] = [];
+  }
+  acc[category].push(post);
+  return acc;
+}, {} as Record<string, typeof posts>); 
 ---
 
 <Layout title="Fujitime - All Posts">
@@ -16,29 +25,40 @@ const posts = await getCollection("posts");
         </svg>
       </span>
     </h1>
+      <p class="text-lg text-gray-700 dark:text-neutral-300 ">
+        Here you can find a collection of my thoughts on various topics. I try to write about things that I find interesting, and that I think others might find interesting as well. I hope you enjoy reading them!
+      </p>
 
-    <article class="flex flex-col gap-4">
-      {
-        posts.map((post) => (
-          <a
-            class="group flex flex-col gap-2 border-t border-border-light dark:border-neutral-700 py-4 transition-all hover:text-accent-light dark:hover:text-neutral-100"
-            href={`/posts/${post.slug}`}
-          >
-            <div class="flex w-full items-center justify-between gap-4">
-    
-              <div class="flex-1">
-                <h2 class="text-lg text-text-light dark:text-neutral-400 group-hover:text-accent-light dark:group-hover:text-neutral-100">{post.data.title}</h2>
-                <p class="text-muted-light dark:text-neutral-500 text-sm">{formatDate(post.data.publishedAt)}</p>
-              </div>
-              {/* Thumbnail Image */}
-              {post.data.image && (
-                <img
-                  src={post.data.image}
-                  alt={post.data.title}
-                  class="w-16 h-16 object-cover rounded-md"
-                />
-              )}
-              <svg
+    {Object.keys(groupedPosts).map((category) => (
+      <section >
+        <!-- Category Label -->
+        <h2 class="text-2xl font-bold text-primary-light dark:text-neutral-100 mt-8">
+          {category}
+        </h2>
+
+        <article class="flex flex-col gap-4">
+          {groupedPosts[category].map((post) => (
+            <a
+              class="group flex flex-col gap-2 border-t border-border-light dark:border-neutral-700 py-4 transition-all hover:text-accent-light dark:hover:text-neutral-100"
+              href={`/posts/${post.slug}`}
+            >
+              <div class="flex w-full items-center justify-between gap-4">
+                <div class="flex-1">
+                  <h3 class="text-lg text-text-light dark:text-neutral-400 group-hover:text-accent-light dark:group-hover:text-neutral-100">
+                    {post.data.title}
+                  </h3>
+                  <p class="text-muted-light dark:text-neutral-500 text-sm">
+                    {formatDate(post.data.publishedAt)}
+                  </p>
+                </div>
+                {post.data.image && (
+                  <img
+                    src={post.data.image}
+                    alt={post.data.title}
+                    class="w-16 h-16 object-cover rounded-md"
+                  />
+                )}
+                              <svg
                 width="18"
                 height="18"
                 viewBox="0 0 18 18"
@@ -58,13 +78,14 @@ const posts = await getCollection("posts");
                   stroke-linejoin="round"
                 />
               </svg>
-            </div>
-            <p class="text-muted-light dark:text-neutral-500 group-hover:text-text-light dark:group-hover:text-neutral-400">
-              {post.data.description}
-            </p>
-          </a>
-        ))
-      }
-    </article>
+              </div>
+              <p class="text-muted-light dark:text-neutral-500 group-hover:text-text-light dark:group-hover:text-neutral-400">
+                {post.data.description}
+              </p>
+            </a>
+          ))}
+        </article>
+      </section>
+    ))}
   </main>
 </Layout>
