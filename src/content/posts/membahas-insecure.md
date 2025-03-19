@@ -1,22 +1,30 @@
 ---
-title: Membahas Insecure
-description: Ini adalah tulisan pertama di website super keren ini.
+title: Stalking Berujung Overthinking
+description: Ini adalah tulisan pertama di website ini.
 publishedAt: 2025-03-18T10:45:26.976Z
 slug: Insecure
 image: /images/cd9888f9d3e17ce0ff5a798130ea8196.jpg
 isPublish: true
 ---
-\-﻿-----------------------------------------------------------------------------------------------------------------------------------------------
+\-﻿-----------------------------------------------------------------------------------
 
-Katanya, sekarang kita hidup di **Era Tribalisme** — di mana kejujuran lebih penting dari viralitas. Jadi, inilah tulisan terjujur dari semua keresahanku sekarang.
+Dulu, tulisan terasa punya suara. Sekarang? AI membuat semuanya seragam dan mudah digantikan. Mungkin ini kemajuan, mungkin juga "kehilangan". Tulisan bukan lagi tentang ekspresi, tapi sekadar hasil algoritma.
 
-Yaitu insecure. Hal ini harus diatasi. Jika tidak… ya, nggak apa-apa? :v
+Di tengah dunia yang *‘maju’*  ini, ada satu hal yang tetap sama: **rasa insecure**.
 
-Tapi kalau kalian mau tahu sesuatu, silakan lanjut baca, saya yakin atas izin tuhan bisa bermanfaat.
+Kadang muncul tanpa alasan, Haruskah diatasi? Mungkin. Tapi kalau tidak? Ya… mungkin juga nggak apa-apa.
 
+Kalau kalian pernah merasa seperti ini, atau sekadar penasaran, silakan lanjut baca.
+
+Siapa tahu, atas izin Tuhan, ada buah yang bisa kita petik… makan… dan ternyata rasanya pahit. Ya, namanya juga hidup, nggak selalu manis. 😆
+
+hehehe
+
+maaf.
 
 
 ![Kucing](/images/cd9888f9d3e17ce0ff5a798130ea8196.jpg "Kucing")
+
 
 Beberapa menit yang lalu, saya duduk sendirian di kamar, scroll Facebook berjam-jam. Tiba-tiba muncul rekomendasi teman dengan foto profil Frieren. Sebagai jiwa penjelajah internet, penasaran dong? Stalker, ah.
 
@@ -42,50 +50,21 @@ Sempat kepikiran, *jadi “orang itu” enak kali, ya?* Hidupnya teredukasi, dik
 
 Ah, Mungkin ini nggak seberapa, tapi tetap aja pola seperti ini sering berulang sampai dewasa.
 
-Saya diem sebentar, ngerasain betapa nggak enaknya perasaan ini. Awalnya cuma iseng stalking, sekarang malah jadi overthinking. 
+Saya diem sebentar, ngerasain betapa nggak enaknya perasaan ini. Awalnya cuma iseng stalking, sekarang malah jadi overthinking.
+
+"Kok orang-orang bisa gitu, ya?" saya bergumam sendiri.
+"Atau… cuma biar keliatan aja?"
 
 > Pernah ngga sih kayak gitu? Atau saya doang yang begini? plis temenin dong:)
 
-Tapi anehnya semakin banyak dilihat, semakin nggak nyaman rasanya. Semua terlihat sempurna, mulus, tertata rapi. Seolah mereka benar-benar tahu apa yang mereka lakukan dalam hidup.
+Tapi anehnya, semakin lama dilihat, semakin nggak nyaman rasanya. Semua terlihat sempurna, mulus, tertata rapi. Seolah mereka benar-benar tahu apa yang mereka lakukan dalam hidup.
+
+Saya narik napas, diem sebentar.
+
+Kok makin nggak enak, ya?
 
 Lalu saya mikir… *Apa iya hidup mereka sesempurna itu?*
 
 Apa iya mereka benar-benar lebih bahagia, lebih sukses, lebih tahu arah hidupnya?
 
 > Atau mereka cuma berusaha terlihat begitu?
-
-#### Sedikit metafora :
-
-Saya terperangkap di lautan pemikiran dangkal, semakin bergerak, semakin tenggelam. 
-
-Lalu, setitik cahaya muncul di permukaan — kecil, samar, tapi cukup untuk membuat saya ingin bangkit.
-
-Inilah cahayanya:
-
-**Apa iya hidup mereka sesempurna itu?**
-
-Untuk mengatasi hal ini, dibutuhkan rasa percaya diri. Susah? Memang. Terutama untuk orang yang minderan, sekaligus 'tidak punya apa-apa' yang bisa dibanggakan.
-
-Satu hal yang harus kamu tahu, Untuk mulai percaya diri, cukup sederhana. 
-
-Yaitu menyadari bahwa Confident bukan saat kamu sadar dirimu hebat. Tapi saat sadar, Semua orang di sekitar sama-sama tolol dan sedang struggle.
-
-Mereka hanya pura-pura tidak tolol, tidak lemah, tidak gagal. Padahal? Semua orang lagi struggling biar kelihatan berhasil, tidak ada orang yang tidak mempunyai masalah, semua punya.
-
-Coba perhatiin story Instagram temen-temenmu. Mereka suka posting hal-hal yang menunjukkan kehebatan dan kesuksesan mereka. Itu artinya, mereka juga bisa insecure.
-
-Jadi, wajar kalau orang seumuran kita ngerasa insecure soal kesuksesan. Tapi begitu kamu sadar hal itu, kamu mulai lebih percaya diri. 
-
-Dan menyadari
-
-Ternyata aku ini wajar.
-
- — — — — — — — — — — — — — 
-
-Kepercayaan diri datang bukan dari jadi hebat, tapi dari sadar bahwa semua orang ini sama-sama *fuckdup*-nya.
-
-Kamu bukan the worst person. Mereka kelihatan keren dan baik karena kamu gak bisa lihat isi hati mereka.
-
-Sedangkan kamu? kamu tahu betul gimana rasanya ada di posisi tidak enak yang orang lain tidak tahu.
-
-Dan satu fakta simpel lainnya — tapi masih banyak yang belum sadar — adalah… orang lain nggak akan tahu isi kepalamu dan perasaanmu sampai kamu benar-benar bisa menyampaikannya.
