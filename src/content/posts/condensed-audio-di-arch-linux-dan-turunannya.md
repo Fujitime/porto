@@ -13,15 +13,13 @@ Sebelum lanjut, pastikan kalian sudah tahu apa itu **Metode Immersion**. Jika be
 
 - - -
 
-## Kenapa Podcast?
-
 Podcast adalah salah satu media terbaik untuk belajar bahasa karena percakapannya berjalan konstan tanpa jeda, tanpa background musik, dan tanpa gangguan. Ini membuat input bahasa lebih maksimal dan efektif.
 
 > **No fek-fek, no teori-teori—real experience!**
 
 Untuk contoh kali ini, kita akan menggunakan bahasa Jepang dan anime sebagai sumber video.
 
-### Kenapa Anime?
+### Kenapa Anime Saja Kurang?
 
 Setiap kali nonton anime, setengah waktu malah terbuang untuk mendengarkan opening, efek suara random, atau jeda doang. Oke, cukup! Kita bisa mengubah suara dari anime menjadi audio mirip podcast, full percakapan.
 
@@ -82,7 +80,5 @@ pip install subs2cia
 Dari 25 menit episode anime, kamu bakal dapet sekitar 15 menit audio full percakapan. Nggak ada opening, nggak ada background noise, nggak ada jeda kosong. Cuma omongan karakter.
 
 Y﻿oi.
-
-Sekarang kamu punya cara baru untuk belajar bahasa dengan lebih efektif. Selamat mencoba, dan semoga proses belajarmu semakin menyenangkan! 🎧
 
 Jika ada pertanyaan atau kendala, jangan ragu untuk bertanya di kolom komentar. Saya akan bantu (sebisanya)
