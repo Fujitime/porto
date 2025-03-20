@@ -1,6 +1,6 @@
 ---
 title: Condensed Audio di Arch Linux dan turunannya
-description: Ingin belajar bahasa dengan cepat? Mulailah dengan listening dari audio, cara super efektif!
+description: Belajar bahasa dengan cepat dengan listening super efektif!
 publishedAt: 2025-03-20T03:16:28.267Z
 slug: Condensed Audio
 image: /images/maxresdefault.jpg
@@ -9,7 +9,7 @@ category: Tech
 ---
 \-﻿----------------------
 
-Sebelum lanjut, pastikan kalian sudah tahu apa itu **Metode Immersion**. Jika belum, klik [di sini](#).
+Sebelum lanjut, pastikan kalian sudah tahu apa itu **Metode Immersion**. Jika belum, klik [di sini](https://fuji-halim-rabani.netlify.app/posts/metode%20immersion/).
 
 ![otakudes](/images/maxresdefault.jpg "otakudes")
 
