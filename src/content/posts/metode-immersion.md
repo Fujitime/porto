@@ -19,8 +19,6 @@ Setiap halaman terasa kayak naik gunung sambil bawa batu badag. Berat, pelan, ca
 
 **Mada madaa.** Saya nggak nyerah langsung. Saya coba metode klasik: **tulis ulang kata ribuan kali di buku.** 
 
-
-
 ![kanji](/images/48db3a94-2b18-4adc-9a04-3b4cfb88c98a.jpeg "kanji")
 
 > J﻿ujur, di situ saya ngerasa pinter dan keren banget jirr.
@@ -34,6 +32,8 @@ Saya coba cara lain: **Duolingo**.
 - - -
 
 ## 450 Hari di Duolingo vs 1 Bulan Immersion
+
+![duolingo](/images/screenshot-from-2025-03-20-21-29-59.png "duolingo")
 
 Duolingo itu seru. Saya nggak bohong. Ada validasi yang nyemangatin tiap kali saya bener. Level naik, XP nambah, streak bertahan. Saya main hampir 500 hari. Tapi setelah itu, saya sadar... saya masih nggak bisa ngerti anime tanpa subtitle. ( sejatinya tujuan pengen ngerti bahasa jepang www)
 
@@ -50,8 +50,6 @@ Sepuluh menit? Mulai curiga jangan-jangan saya nonton anime dalam bahasa Alien (
 Di Duolingo, bangga udah level tinggi… lalu coba nonton anime, dan 60% gangerti maksud sebenarnya apa.
 
 ## Lalu saya coba immersion.
-
-<https://www.youtube.com/watch?v=7q6DmAEW8ZQ>
 
 Metode ini sederhana: saya tenggelam di bahasa Jepang setiap hari. **Nonton anime pakai subtitle Jepang, baca manga tanpa terjemahan, dengar podcast. ( meskipun ga ngerti kocak ).** Selama satu bulan penuh.
 
@@ -108,3 +106,13 @@ Kalau kamu penasaran dan pengen coba, ada challenge gratis 30 hari di **[LearnJa
 Saya nggak janji kamu bakal jadi native speaker dalam sebulan. Tapi kalau kamu jalanin ini terus, suatu hari kamu bakal sadar ketika lihat kanji:
 
 **"Loh, kok gweh ngerti?"**
+
+**\-﻿------------------------------------------------------------------**
+
+**R﻿ill no fek-fek. no teori-teori**
+
+**r﻿eal experiencee**
+
+**B﻿onus:**
+
+<https://www.youtube.com/watch?v=7q6DmAEW8ZQ>
