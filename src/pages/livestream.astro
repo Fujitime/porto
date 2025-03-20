@@ -12,6 +12,7 @@ interface YouTubeVideo {
     thumbnails: { medium: { url: string } };
     publishedAt: string;
   };
+  duration?: string; // Tambahkan properti untuk durasi
 }
 
 interface YouTubeChannel {
@@ -36,25 +37,64 @@ interface YouTubeChannelResponse {
   items: YouTubeChannel[];
 }
 
+interface YouTubeVideoDetailsResponse {
+  items: { id: string; contentDetails: { duration: string } }[];
+}
+
+// Fungsi untuk mengonversi durasi dari ISO 8601 ke format yang mudah dibaca
+const formatDuration = (isoDuration: string): string => {
+  const match = isoDuration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+  if (!match) return "Unknown";
+
+  const hours = match[1] ? `${match[1]}j ` : "";
+  const minutes = match[2] ? `${match[2]}m ` : "";
+  const seconds = match[3] ? `${match[3]}d` : "";
+
+  return `${hours}${minutes}${seconds}`.trim();
+};
+
 // Fetch data dari YouTube API untuk video
 const fetchVideos = async (): Promise<YouTubeVideo[]> => {
   try {
-    const url = new URL('https://www.googleapis.com/youtube/v3/search');
-    url.searchParams.set('key', API_KEY);
-    url.searchParams.set('channelId', CHANNEL_ID);
-    url.searchParams.set('part', 'snippet');
-    url.searchParams.set('type', 'video');
-    url.searchParams.set('eventType', 'completed');
-    url.searchParams.set('maxResults', '100');
-    url.searchParams.set('order', 'date');
+    const searchUrl = new URL("https://www.googleapis.com/youtube/v3/search");
+    searchUrl.searchParams.set("key", API_KEY);
+    searchUrl.searchParams.set("channelId", CHANNEL_ID);
+    searchUrl.searchParams.set("part", "snippet");
+    searchUrl.searchParams.set("type", "video");
+    searchUrl.searchParams.set("eventType", "completed");
+    searchUrl.searchParams.set("maxResults", "100");
+    searchUrl.searchParams.set("order", "date");
 
-    const res = await fetch(url.toString());
-    if (!res.ok) {
-      throw new Error(`HTTP error! Status: ${res.status}`);
+    const searchRes = await fetch(searchUrl.toString());
+    if (!searchRes.ok) {
+      throw new Error(`HTTP error! Status: ${searchRes.status}`);
     }
 
-    const data: YouTubeApiResponse = await res.json();
-    return data.items;
+    const searchData: YouTubeApiResponse = await searchRes.json();
+    const videoIds = searchData.items.map(video => video.id.videoId).join(",");
+    if (!videoIds) return [];
+
+    // Fetch detail video untuk mendapatkan durasi
+    const videoUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
+    videoUrl.searchParams.set("key", API_KEY);
+    videoUrl.searchParams.set("id", videoIds);
+    videoUrl.searchParams.set("part", "contentDetails");
+
+    const videoRes = await fetch(videoUrl.toString());
+    if (!videoRes.ok) {
+      throw new Error(`HTTP error! Status: ${videoRes.status}`);
+    }
+
+    const videoData: YouTubeVideoDetailsResponse = await videoRes.json();
+
+    // Gabungkan data durasi ke data video
+    return searchData.items.map(video => {
+      const videoDetail = videoData.items.find(v => v.id === video.id.videoId);
+      return {
+        ...video,
+        duration: videoDetail ? formatDuration(videoDetail.contentDetails.duration) : "Unknown",
+      };
+    });
   } catch (error) {
     console.error("Gagal mengambil data YouTube:", error);
     return [];
@@ -80,7 +120,7 @@ const fetchChannel = async (): Promise<YouTubeChannel | null> => {
     console.error("Gagal mengambil data channel YouTube:", error);
     return null;
   }
-}
+};
 
 let allVideos: YouTubeVideo[] = [];
 let channelInfo: YouTubeChannel | null = null;
@@ -93,6 +133,7 @@ allVideos = allVideos.sort((a, b) => {
   const dateB = new Date(b.snippet.publishedAt).getTime();
   return dateB - dateA;
 });
+
 ---
 
 <Layout title="Live Stream Log">
@@ -130,33 +171,44 @@ allVideos = allVideos.sort((a, b) => {
       <span>Live Stream Log</span>
     </h1>
 
-    {/* Daftar Video */}
-    {allVideos.length > 0 ? (
-      <div class="flex flex-col gap-6 w-full max-w-4xl">
-        {allVideos.map((video) => (
-          <a
-            href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
-            target="_blank"
-            class="flex items-start gap-4 p-4 border rounded-lg hover:bg-neutral-200 dark:hover:bg-neutral-800 transition-all"
-          >
-            <img
-              src={video.snippet.thumbnails.medium.url}
-              alt={video.snippet.title}
-              class="w-full max-w-[80px] h-auto rounded-lg object-cover" 
-            />
-            <div class="flex flex-col">
-              <h3 class="text-lg font-medium text-text-light dark:text-neutral-100">
-                {video.snippet.title}
-              </h3>
-              <p class="text-sm text-neutral-500 dark:text-neutral-400">
-                {formatDate(video.snippet.publishedAt)} {/* Use formatDate here */}
-              </p>
-            </div>
-          </a>
-        ))}
-      </div>
-    ) : (
-      <p class="text-neutral-500 dark:text-neutral-400">Belum ada live stream terbaru.</p>
-    )}
+{/* Daftar Video */}
+{allVideos.length > 0 ? (
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl">
+    {allVideos.map((video) => (
+      <a
+        href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
+        target="_blank"
+        class="group relative block rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all"
+      >
+        <div class="relative w-full aspect-video">
+          {/* Thumbnail Video */}
+          <img
+            src={video.snippet.thumbnails.medium.url}
+            alt={video.snippet.title}
+            class="w-full h-full object-cover"
+          />
+          {/* Durasi di atas thumbnail */}
+          <span class="absolute bottom-2 right-2 bg-black bg-opacity-80 text-white text-xs font-semibold px-2 py-1 rounded">
+            {video.duration ?? "--:--"}
+          </span>
+        </div>
+        <div class="p-3 flex gap-3">
+          {/* Foto Profil Diganti dengan Lingkaran Merah */}
+          <div class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full"></div>
+          <div class="flex flex-col">
+            <h3 class="text-sm font-semibold text-gray-900 dark:text-white group-hover:text-red-500">
+              {video.snippet.title}
+            </h3>
+            <p class="text-xs text-gray-500 dark:text-gray-400">
+              {formatDate(video.snippet.publishedAt)}
+            </p>
+          </div>
+        </div>
+      </a>
+    ))}
+  </div>
+) : (
+  <p class="text-neutral-500 dark:text-neutral-400">Belum ada live stream terbaru.</p>
+)}
   </main>
 </Layout>
