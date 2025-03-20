@@ -59,18 +59,25 @@ const otherPosts = (await getCollection("posts"))
 
     <!-- Rekomendasi Post Lainnya -->
     <section class="mt-12">
-      <h2 class="text-xl font-semibold text-text-light dark:text-neutral-100">Baca Juga Tulisan Lainnya</h2>
+      <h2 class="text-xl font-semibold text-text-light dark:text-neutral-100">Baca Juga Tulisan Lainnya:</h2>
       <div class="grid gap-4 mt-4">
         {otherPosts.map((otherPost) => (
           <a 
-            href={`/posts/${otherPost.slug}`} 
-            class="flex flex-col gap-2 p-4 border border-border-light dark:border-neutral-700 
-            bg-secondary-light dark:bg-neutral-900 rounded-md transition-all duration-300 
-            hover:-translate-y-1 hover:shadow-md dark:hover:shadow-none"
+          href={`/posts/${otherPost.slug}`} 
+          class="flex flex-col gap-2 p-4 border border-border-light dark:border-neutral-700 
+          bg-secondary-light dark:bg-neutral-900 rounded-md transition-all duration-300 
+          hover:-translate-y-1 hover:shadow-md dark:hover:shadow-none"
           >
-            <p class="text-lg font-medium text-text-light dark:text-neutral-100">
+            <div class="flex gap-2">
+          <img
+            src={otherPost.data.image}
+            alt={otherPost.data.title}
+            class="w-16 h-16 object-cover rounded-md"
+          />
+            <p class="text-lg my-auto font-medium text-text-light dark:text-neutral-100">
               {otherPost.data.title}
             </p>
+            </div>
             <p class="text-sm text-muted-light dark:text-neutral-400">
               {formatDate(otherPost.data.publishedAt)}
             </p>

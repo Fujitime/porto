@@ -1,6 +1,6 @@
 ---
 title: Condensed Audio di Arch Linux dan turunannya
-description: Belajar listening dari audio apapun untuk belajar bahasa super efektif
+description: Ingin belajar bahasa dengan cepat? Mulailah dengan listening dari audio, cara super efektif!
 publishedAt: 2025-03-20T03:16:28.267Z
 slug: Condensed Audio
 image: /images/maxresdefault.jpg
@@ -11,7 +11,7 @@ category: Tech
 
 Sebelum lanjut, pastikan kalian sudah tahu apa itu **Metode Immersion**. Jika belum, klik [di sini](#).
 
-- - -
+![otakudes](/images/maxresdefault.jpg "otakudes")
 
 Podcast adalah salah satu media terbaik untuk belajar bahasa karena percakapannya berjalan konstan tanpa jeda, tanpa background musik, dan tanpa gangguan. Ini membuat input bahasa lebih maksimal dan efektif.
 
@@ -19,7 +19,7 @@ Podcast adalah salah satu media terbaik untuk belajar bahasa karena percakapanny
 
 Untuk contoh kali ini, kita akan menggunakan bahasa Jepang dan anime sebagai sumber video.
 
-### Kenapa Anime Saja Kurang?
+### Kenapa Listening Dari Anime Saja Kurang?
 
 Setiap kali nonton anime, setengah waktu malah terbuang untuk mendengarkan opening, efek suara random, atau jeda doang. Oke, cukup! Kita bisa mengubah suara dari anime menjadi audio mirip podcast, full percakapan.
 
