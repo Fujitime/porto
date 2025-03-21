@@ -17,7 +17,7 @@ Setiap halaman terasa kayak naik gunung sambil bawa batu badag. Berat, pelan, ca
 
 ![batubadag](/images/37tjkj.jpg "batubadag")
 
-**Mada madaa.** Saya nggak nyerah langsung. Saya coba metode klasik: **tulis ulang kata ribuan kali di buku.** 
+Saya coba metode klasik: **tulis ulang kata ribuan kali di buku.** 
 
 ![kanji](/images/48db3a94-2b18-4adc-9a04-3b4cfb88c98a.jpeg "kanji")
 
