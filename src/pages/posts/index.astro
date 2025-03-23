@@ -2,17 +2,33 @@
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import formatDate from "@/utils/formatDate";
-import { estimateReadTime } from "@/utils/estimateRead"; 
+import { estimateReadTime } from "@/utils/estimateRead";
+
 const posts = await getCollection("posts");
 
-const groupedPosts = posts.reduce((acc, post) => {
-  const category = post.data.category; 
-  if (!acc[category]) {
-    acc[category] = [];
-  }
-  acc[category].push(post);
+// Grup post terlebih dahulu berdasarkan tahun, lalu di dalam tiap tahun berdasarkan kategori.
+const groupedByYear = posts.reduce((acc, post) => {
+  const year = new Date(post.data.publishedAt).getFullYear();
+  if (!acc[year]) acc[year] = {};
+  const category = post.data.category;
+  if (!acc[year][category]) acc[year][category] = [];
+  acc[year][category].push(post);
   return acc;
-}, {} as Record<string, typeof posts>); 
+}, {} as Record<number, Record<string, typeof posts>>);
+
+// Urutkan tahun dari terbaru ke terlama.
+const sortedYears = Object.keys(groupedByYear)
+  .map(Number)
+  .sort((a, b) => b - a);
+
+// Untuk tiap tahun, urutkan kategori secara alfabetis.
+for (const year in groupedByYear) {
+  groupedByYear[year] = Object.fromEntries(
+    Object.entries(groupedByYear[year]).sort(([catA], [catB]) =>
+      catA.localeCompare(catB)
+    )
+  );
+}
 ---
 
 <style>
@@ -21,9 +37,7 @@ const groupedPosts = posts.reduce((acc, post) => {
   animation: fadeIn 0.8s ease-out forwards;
 }
 @keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
+  to { opacity: 1; }
 }
 
 .reveal {
@@ -35,15 +49,30 @@ const groupedPosts = posts.reduce((acc, post) => {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Styling untuk watermark atau header tahun */
+.year-background {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10rem;
+  font-weight: bold;
+  color: rgba(200,200,200,0.1);
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  font-family: "JetBrains Mono", monospace
+}
+.year-section {
+  position: relative;
+  padding-top: 6rem;
+}
 </style>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const mainElement = document.querySelector("main");
-  if (mainElement) {
-    mainElement.classList.add("fade-in");
-  }
-
   const elements = document.querySelectorAll(".reveal");
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -52,82 +81,79 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
-
   elements.forEach((el) => observer.observe(el));
 });
-
 </script>
 
 <Layout title="Fujitime - All Posts">
   <main class="flex flex-col gap-20 fade-in">
     <h1 class="text-3xl font-bold text-text-light dark:text-neutral-100 flex items-center gap-2 reveal">
       Posts
-      <span class="w-10 h-10">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-full h-full">
-          <path d="M12.5 17.32q1.216-.68 2.453-.98t2.547-.302q.9 0 1.849.17t1.651.469V6.681q-.69-.389-1.597-.554T17.5 5.962q-1.31 0-2.613.386q-1.304.387-2.387 1.16zm-.5 1.45q-1.22-.836-2.62-1.283t-2.88-.448q-1.229 0-2.42.345q-1.19.347-2.08.916V6.07q.85-.52 2.04-.814Q5.229 4.96 6.5 4.96q1.47 0 2.866.423q1.398.424 2.634 1.231q1.237-.807 2.634-1.23t2.866-.423q1.271 0 2.451.294T22 6.069V18.3q-.885-.57-2.078-.915q-1.193-.347-2.422-.347q-1.48 0-2.88.448T12 18.77"/>
-        </svg>
-      </span>
     </h1>
     <div class="flex flex-col gap-2 reveal">
-      <p>
-        Butuh waktu lama untuk merangkai tulisan ini, tapi kamu bisa melahapnya dalam hitungan menit. 
-      </p>
-      <p>
-        Di sini, kamu bisa baca topik yang menurutku menarik dan semoga juga menarik buat kamu. Selamat membaca, semoga suka!
-      </p>  
+      <p>Berikut adalah postingan yang dikelompokkan berdasarkan tahun (terbaru ke terlama) lalu kategori.</p>
     </div>
 
-    {Object.keys(groupedPosts).map((category) => (
-      <section class="reveal">
-        <h2 class="text-2xl font-bold text-gray-900 dark:text-neutral-100 mt-8">
-          {category}
+    {sortedYears.map((year) => (
+      <section class="year-section reveal">
+        {/* Watermark/Background Tahun */}
+        <div class="year-background">{year}</div>
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-neutral-100 relative z-10">
+          {year}
         </h2>
-        <article class="flex flex-col gap-4">
-  {groupedPosts[category].map((post) => {
-    const content = post.body || ''; 
-    const readTime = estimateReadTime(content); 
-    return (
-      <a
-        class="group flex flex-col gap-2 border-t border-border-light dark:border-neutral-700 py-4 transition-all hover:text-accent-light dark:hover:text-neutral-100 reveal"
-        href={`/posts/${post.slug}`}
-      >
-        <div class="flex w-full items-center justify-between gap-4">
-          <div class="flex-1">
-            <h3 class="text-lg text-text-light dark:text-neutral-400 group-hover:text-accent-light dark:group-hover:text-neutral-100">
-              {post.data.title}
+
+        {Object.keys(groupedByYear[year]).map((category) => (
+          <div class="relative z-10 mt-8">
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-200">
+              {category}
             </h3>
-            <p class="text-muted-light dark:text-neutral-500 text-sm">
-              {formatDate(post.data.publishedAt)}
-            </p>
+            <article class="flex flex-col gap-4">
+              {groupedByYear[year][category].map((post) => {
+                const readTime = estimateReadTime(post.body || '');
+                return (
+                  <a
+                    class="group flex flex-col gap-2 border-t border-border-light dark:border-neutral-700 py-4 transition-all hover:text-accent-light dark:hover:text-neutral-100 reveal relative z-10"
+                    href={`/posts/${post.slug}`}
+                  >
+                    <div class="flex w-full items-center justify-between gap-4">
+                      <div class="flex-1">
+                        <h4 class="text-lg text-text-light dark:text-neutral-400 group-hover:text-accent-light dark:group-hover:text-neutral-100">
+                          {post.data.title}
+                        </h4>
+                        <p class="text-muted-light dark:text-neutral-500 text-sm">
+                          {formatDate(post.data.publishedAt)}
+                        </p>
+                      </div>
+                      {post.data.image && (
+                        <img
+                          src={post.data.image}
+                          alt={post.data.title}
+                          class="w-16 h-16 object-cover rounded-md"
+                        />
+                      )}
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        class="text-muted-light dark:text-neutral-500 transition-all duration-300 group-hover:translate-x-1 group-hover:text-accent-light dark:group-hover:text-neutral-100"
+                      >
+                        <path d="M5.25 12.75L12.75 5.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M5.25 5.25H12.75V12.75" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <p class="text-muted-light dark:text-neutral-500 group-hover:text-text-light dark:group-hover:text-neutral-400">
+                      {post.data.description}
+                    </p>
+                    <p class="text-sm text-muted-light dark:text-neutral-500 mt-2">
+                      Estimasi waktu baca: {readTime} menit
+                    </p>
+                  </a>
+                );
+              })}
+            </article>
           </div>
-          {post.data.image && (
-            <img
-              src={post.data.image}
-              alt={post.data.title}
-              class="w-16 h-16 object-cover rounded-md"
-            />
-          )}
-          <svg
-            width="18"
-            height="18"
-            viewBox="0 0 18 18"
-            fill="none"
-            class="text-muted-light dark:text-neutral-500 transition-all duration-300 group-hover:translate-x-1 group-hover:text-accent-light dark:group-hover:text-neutral-100"
-          >
-            <path d="M5.25 12.75L12.75 5.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M5.25 5.25H12.75V12.75" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </div>
-        <p class="text-muted-light dark:text-neutral-500 group-hover:text-text-light dark:group-hover:text-neutral-400">
-          {post.data.description}
-        </p>
-        <p class="text-sm text-muted-light dark:text-neutral-500 mt-2">
-          Estimasi waktu baca: {readTime} menit
-        </p>
-      </a>
-    );
-  })}
-</article>
+        ))}
       </section>
     ))}
   </main>
