@@ -15,17 +15,60 @@ const groupedPosts = posts.reduce((acc, post) => {
 }, {} as Record<string, typeof posts>); 
 ---
 
+<style>
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const mainElement = document.querySelector("main");
+  if (mainElement) {
+    mainElement.classList.add("fade-in");
+  }
+
+  const elements = document.querySelectorAll(".reveal");
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  });
+
+  elements.forEach((el) => observer.observe(el));
+});
+
+</script>
+
 <Layout title="Fujitime - All Posts">
-  <main class="flex flex-col gap-20">
-    <h1 class="text-3xl font-bold text-text-light dark:text-neutral-100 flex items-center gap-2">
+  <main class="flex flex-col gap-20 fade-in">
+    <h1 class="text-3xl font-bold text-text-light dark:text-neutral-100 flex items-center gap-2 reveal">
       Posts
       <span class="w-10 h-10">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-full h-full">
-          <path d="M12.5 17.32q1.216-.68 2.453-.98t2.547-.302q.9 0 1.849.17t1.651.469V6.681q-.69-.389-1.597-.554T17.5 5.962q-1.31 0-2.613.386q-1.304.387-2.387 1.16zm-.5 1.45q-1.22-.836-2.62-1.283t-2.88-.448q-1.229 0-2.42.345q-1.19.347-2.08.916V6.07q.85-.52 2.04-.814Q5.229 4.96 6.5 4.96q1.47 0 2.866.423q1.398.424 2.634 1.231q1.237-.807 2.634-1.23t2.866-.423q1.271 0 2.451.294T22 6.069V18.3q-.885-.57-2.078-.915q-1.193-.347-2.422-.347q-1.48 0-2.88.448T12 18.77m1.885-9.177v-.93q.805-.408 1.725-.612t1.89-.204q.554 0 1.064.071q.509.072 1.052.202v.908q-.524-.167-1.02-.232q-.498-.064-1.096-.064q-.97 0-1.892.218q-.924.218-1.724.643m0 5.462v-.97q.768-.407 1.717-.611t1.899-.204q.554 0 1.064.072q.509.07 1.052.201v.908q-.524-.167-1.02-.232q-.498-.064-1.096-.064q-.97 0-1.892.235q-.924.234-1.724.665m0-2.712v-.969q.806-.408 1.726-.611t1.89-.204q.554 0 1.063.07q.51.072 1.052.203v.908q-.523-.168-1.02-.232q-.497-.065-1.095-.065q-.97 0-1.892.238q-.924.237-1.724.662"/>
+          <path d="M12.5 17.32q1.216-.68 2.453-.98t2.547-.302q.9 0 1.849.17t1.651.469V6.681q-.69-.389-1.597-.554T17.5 5.962q-1.31 0-2.613.386q-1.304.387-2.387 1.16zm-.5 1.45q-1.22-.836-2.62-1.283t-2.88-.448q-1.229 0-2.42.345q-1.19.347-2.08.916V6.07q.85-.52 2.04-.814Q5.229 4.96 6.5 4.96q1.47 0 2.866.423q1.398.424 2.634 1.231q1.237-.807 2.634-1.23t2.866-.423q1.271 0 2.451.294T22 6.069V18.3q-.885-.57-2.078-.915q-1.193-.347-2.422-.347q-1.48 0-2.88.448T12 18.77"/>
         </svg>
       </span>
     </h1>
-    <div class="flex flex-col gap-2">
+    <div class="flex flex-col gap-2 reveal">
       <p>
         Butuh waktu lama untuk merangkai tulisan ini, tapi kamu bisa melahapnya dalam hitungan menit. 
       </p>
@@ -35,18 +78,17 @@ const groupedPosts = posts.reduce((acc, post) => {
     </div>
 
     {Object.keys(groupedPosts).map((category) => (
-      <section >
-        <!-- Category Label -->
+      <section class="reveal">
         <h2 class="text-2xl font-bold text-gray-900 dark:text-neutral-100 mt-8">
           {category}
         </h2>
         <article class="flex flex-col gap-4">
   {groupedPosts[category].map((post) => {
-    const content = post.body || ''; // Pastikan ada konten sebelum memproses
-    const readTime = estimateReadTime(content); // Menghitung waktu baca dari konten
+    const content = post.body || ''; 
+    const readTime = estimateReadTime(content); 
     return (
       <a
-        class="group flex flex-col gap-2 border-t border-border-light dark:border-neutral-700 py-4 transition-all hover:text-accent-light dark:hover:text-neutral-100"
+        class="group flex flex-col gap-2 border-t border-border-light dark:border-neutral-700 py-4 transition-all hover:text-accent-light dark:hover:text-neutral-100 reveal"
         href={`/posts/${post.slug}`}
       >
         <div class="flex w-full items-center justify-between gap-4">
@@ -72,18 +114,8 @@ const groupedPosts = posts.reduce((acc, post) => {
             fill="none"
             class="text-muted-light dark:text-neutral-500 transition-all duration-300 group-hover:translate-x-1 group-hover:text-accent-light dark:group-hover:text-neutral-100"
           >
-            <path
-              d="M5.25 12.75L12.75 5.25"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M5.25 5.25H12.75V12.75"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
+            <path d="M5.25 12.75L12.75 5.25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M5.25 5.25H12.75V12.75" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
         </div>
         <p class="text-muted-light dark:text-neutral-500 group-hover:text-text-light dark:group-hover:text-neutral-400">
@@ -96,7 +128,6 @@ const groupedPosts = posts.reduce((acc, post) => {
     );
   })}
 </article>
-
       </section>
     ))}
   </main>
