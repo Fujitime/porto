@@ -1,7 +1,7 @@
 ---
 title: Stalking Berujung Overthinking
 description: Ini adalah tulisan pertama di website ini.
-publishedAt: 2025-03-18T10:45:26.976Z
+publishedAt: 2023-01-18T10:45:26.976Z
 slug: Insecure
 image: /images/cd9888f9d3e17ce0ff5a798130ea8196.jpg
 isPublish: true

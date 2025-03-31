@@ -1,7 +1,7 @@
 ---
 title: Metode Immersion
 description: Hafal ribuan kanji tanpa effort banget
-publishedAt: 2025-03-20T14:44:15.713Z
+publishedAt: 2025-01-20T14:44:15.713Z
 slug: Metode Immersion
 image: /images/ahr0chm6ly9hc3nldhmuz3jvb3zlyxbwcy5jb20vaw1hz2vzlzvmodyxy2zknzeymdy4mda3mtzhmdqzns8xnzazmtm1ndg2x01hbmdhsw1tzxjzaw9ulmpwzw.webp
 isPublish: true
@@ -31,29 +31,99 @@ Saya coba cara lain: **Duolingo**.
 
 - - -
 
-## 450 Hari di Duolingo vs 1 Bulan Immersion
+
+# Duolingo 
 
 ![duolingo](/images/screenshot-from-2025-03-20-21-29-59.png "duolingo")
 
-Duolingo itu seru. Saya nggak bohong. Ada validasi yang nyemangatin tiap kali saya bener. Level naik, XP nambah, streak bertahan. Saya main hampir 500 hari. Tapi setelah itu, saya sadar... saya masih nggak bisa ngerti anime tanpa subtitle. ( sejatinya tujuan pengen ngerti bahasa jepang www)
+Duolingo itu seru. Saya nggak bohong. Ada validasi yang nyemangatin tiap kali saya bener. Level naik, XP nambah, streak bertahan. Saya main hampir 500 hari. 
 
-Suatu hari, saya iseng nonton anime tanpa subtitle.
+Tapi setelah itu, saya sadar... saya masih nggak bisa ngerti anime tanpa subtitle. (sejatinya pengen ngerti bahasa jepang)
 
-"Oke, coba dengerin baik-baik."
+Suatu hari, saya iseng nonton anime tanpa subtitle:
+- **Dua menit pertama:** "Pura-pura paham."
+- **Lima menit:** "Halah, udah biasa denger (tetep gapaham)."
+- **Sepuluh menit:** Mulai curiga, jangan-jangan saya nonton anime dalam bahasa Alien (Njirr).
 
-Dua menit pertama? "Pura-pura paham"
-
-Lima menit? "Halah, udah biasa denger (tetep gapaham)".
-
-Sepuluh menit? Mulai curiga jangan-jangan saya nonton anime dalam bahasa Alien (Njirr).
 
 Di Duolingo, bangga udah level tinggi… lalu coba nonton anime, dan 60% gangerti maksud sebenarnya apa.
 
-## Lalu saya coba immersion.
+## **Menemukan Metode Immersion**  
 
-Metode ini sederhana: saya tenggelam di bahasa Jepang setiap hari. **Nonton anime pakai subtitle Jepang, baca manga tanpa terjemahan, dengar podcast. ( meskipun ga ngerti kocak ).** Selama satu bulan penuh.
+![Duolingo](/images/ahr0chm6ly9hc3nldhmuz3jvb3zlyxbwcy5jb20vaw1hz2vzlzvmodyxy2zknzeymdy4mda3mtzhmdqzns8xnzazmtm1ndg2x01hbmdhsw1tzxjzaw9ulmpwzw.webp "Immerse")  
 
-Hasilnya?
+
+Saya lagi iseng scroll **Reddit**, nyari cara belajar bahasa Jepang yang lebih efektif.  
+
+Di forum, banyak orang luar cerita kalau mereka bisa paham bahasa Jepang dalam waktu yang relatif singkat.  
+
+> Lah, kok bisa secepat itu?
+
+Saya mulai merasa tertinggal. Harusnya, dengan waktu yang sama, saya juga bisa sejago mereka.  
+Tapi kenapa rasanya progres saya lambat banget?  
+
+Lalu, di salah satu komentar, ada yang nyebut **LearnJapanese.moe**.  
+
+Katanya, Ada metode belajar yang fun, Pakai **immersion**—tenggelam dalam bahasa itu setiap hari.  
+
+Bikin penasaran.  
+## __________________________
+
+Metode ini sederhana: cukup tenggelam di bahasa Jepang setiap hari.  
+
+- **Nonton anime** pakai subtitle Jepang  
+- **Baca manga** tanpa terjemahan  
+- **Dengar podcast**  orang Jepang
+- **Konsumsi Bahasa Jepang**  
+
+Lakuin ini selama satu bulan penuh di channel native orang jepang.
+
+
+### **Hasilnya?**  
+> Zonk. Saya gak paham apa-apa. 
+
+Ternyata, cuma konsumsi doang gak cukup.
+ 
+Ada yang kurang.
+
+# Anki
+  
+Sampai akhirnya, saya nemu **Anki**—dan di situlah semuanya mulai masuk akal.  
+
+
+
+Kaishi
+
+early output yang jadi kek sipaling jepang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Suatu malam, Saya lagi nonton anime, mata mulai berat, setengah ngantuk… dan tiba-tiba:
 
