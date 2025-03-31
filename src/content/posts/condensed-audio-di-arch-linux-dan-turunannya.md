@@ -9,7 +9,7 @@ category: Tech
 ---
 \-﻿----------------------
 
-Sebelum lanjut, pastikan kalian sudah tahu apa itu **Metode Immersion**. Jika belum, klik [di sini](#).
+Sebelum lanjut, pastikan kalian sudah tahu apa itu **Metode Immersion**. Jika belum, klik [di sini](https://fuji-halim-rabani.netlify.app/posts/Metode%20Immersion).
 
 ![otakudes](/images/maxresdefault.jpg "otakudes")
 

@@ -12,7 +12,7 @@ type DateFormatOptions = {
 };
 
 const defaultOptions: DateFormatOptions = {
-  locale: "en-GB",
+  locale: "id-ID",
   year: "numeric",
   month: "long",
   day: "numeric",

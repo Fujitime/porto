@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 <Layout title="Fujitime - All Posts">
-  <main class="flex flex-col gap-20 fade-in">
+  <main class="flex flex-col gap-5 fade-in">
     <h1 class="text-3xl font-bold text-text-light dark:text-neutral-100 flex items-center gap-2 reveal">
       Posts
       <span class="w-10 h-10">
@@ -108,15 +108,15 @@ document.addEventListener("DOMContentLoaded", () => {
       <section class="year-section reveal">
         {/* Watermark/Background Tahun */}
         <div class="year-background">{year}</div>
-        <h2 class="text-2xl font-bold text-gray-900 dark:text-neutral-100 relative z-10">
+        <h2 class="text-lg font-bold text-gray-900 dark:text-neutral-100 relative z-10">
           {year}
         </h2>
 
         {Object.keys(groupedByYear[year]).map((category) => (
           <div class="relative z-10 mt-8">
-            <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-200">
+            <h4 class="text-lg font-semibold text-gray-800 dark:text-neutral-200">
               {category}
-            </h3>
+            </h4>
             <article class="flex flex-col gap-4">
               {groupedByYear[year][category].map((post) => {
                 const readTime = estimateReadTime(post.body || '');
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   >
                     <div class="flex w-full items-center justify-between gap-4">
                       <div class="flex-1">
-                        <h4 class="text-lg text-text-light dark:text-neutral-400 group-hover:text-accent-light dark:group-hover:text-neutral-100">
+                        <h4 class="text-2xl text-text-light dark:text-neutral-400 group-hover:text-accent-light dark:group-hover:text-neutral-100">
                           {post.data.title}
                         </h4>
                         <p class="text-muted-light dark:text-neutral-500 text-sm">

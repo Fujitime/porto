@@ -61,7 +61,7 @@ const otherPosts = (await getCollection("posts"))
     <section class="mt-12">
       <h2 class="text-xl font-semibold text-text-light dark:text-neutral-100">Baca Juga Tulisan Lainnya:</h2>
       <div class="grid gap-4 mt-4">
-        {otherPosts.map((otherPost) => (
+        {otherPosts.slice(0, 5).map((otherPost) => (
           <a 
           href={`/posts/${otherPost.slug}`} 
           class="flex flex-col gap-2 p-4 border border-border-light dark:border-neutral-700 
