@@ -18,9 +18,9 @@ type Props = {
 
 const { title, description, noindex, og } = Astro.props;
 
-const DEFAULT_TITLE_PAGE = "Fuji Halim Rabani - Internet Explorer (Not the Browser)";
+const DEFAULT_TITLE_PAGE = "Fuji Halim Rabani - Personal Website";
 const DEFAULT_DESCRIPTION_PAGE =
-  "Hi, I'm Fuji aka Waltahh, a self-proclaimed internet explorer. I spend my time learning, reading manga, watching anime, and scrolling endlessly. Sometimes, I write and exercise too.";
+  "Hi, I'm Fuji aka Waltahh";
 const DEFAULT_URL_SITE = SITE_URL;
 
 const openGraph = {
@@ -52,7 +52,7 @@ const openGraph = {
       },
     }}
     twitter={{
-      creator: "@your_twitter_handle",
+      creator: "@fuhara16",
     }}
     extend={{
       link: [
@@ -69,7 +69,7 @@ const openGraph = {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: openGraph.title },
         { name: "twitter:description", content: openGraph.description },
-        { name: "twitter:site", content: "@your_twitter_handle" },
+        { name: "twitter:site", content: "fuhara16@" },
       ],
     }}
   />

@@ -8,6 +8,7 @@ isPublish: true
 category: Others
 ---
 Gw, Fuji. Dulu waktu sekolah pernah dicegat polisi.
+
 Maklum, sekolah Gw lokasinya strategis banget...
 
 
@@ -15,7 +16,9 @@ Sebelah kanan SPN—Sekolah Polisi Negara. Sebelah kiri? RSJ. Rumah Sakit Jiwa.
 
 Jadi kalau ada yang ketangkep polisi di sana, kita nggak tau dia bakal dibawa ke kantor polisi atau langsung ke rumah sakit jiwa.
 
-Suatu hari Gw berangkat sekolah naik motor. 
+Suatu hari Gw berangkat sekolah, naik motor.
+
+![mtrps](/images/motor.jpeg "mtors")
 
 Biasanya aman-aman aja, gak pernah ada razia.
 

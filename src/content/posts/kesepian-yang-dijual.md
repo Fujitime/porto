@@ -51,17 +51,18 @@ Yang penting: matanya tetap terbuka. Tangannya tetap scrolling.
 Yang dicari bukan sekadar sensasi.\
 Tapi rasa memiliki. Rasa diterima.\
 Dan ketika itu tidak ditemukan di dunia nyata,\
-dunia digital langsung menawarkan versi palsunya.
+Dunia digital langsung menawarkan versi palsunya.
 
 Tapi sadar, kan?\
 Gak ada yang sungguh-sungguh peduli lo hidup atau enggak.
 
-atensi.
+## Atensi
 
-gak ada sistem di dunia ini yang benar-benar peduli sama lu.
+Tidak ada sistem di dunia ini yang benar-benar peduli sama lu.
+
 Kecuali Tuhan.
 
-Yang dikira sangat jauh—padahal lebih dekat dari apapun
+Yang dikira sangat jauh—padahal lebih dekat dari apapun.
 
 \-﻿-------------------------
 
