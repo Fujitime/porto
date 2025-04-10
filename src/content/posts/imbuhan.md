@@ -45,7 +45,9 @@ Ada pola-pola tertentu,
 > "Oh ini ada 'er'-nya juga, berarti **becerita**, ya?"\
 > Tidak. Harusnya **bercerita**.
 
-Ini yang bikin imbuhan itu tricky. Kadang lo nemu pola, tapi nggak semua kata cocok dengan pola itu.
+Ini yang bikin imbuhan itu tricky. Kadang nemu pola, tapi nggak semua kata cocok dengan pola itu.
+
+\-﻿----------------
 
 Oh ya, saya pernah lihat Eno Bening marah-marah di internet gara-gara kata “menggokil”.
 
