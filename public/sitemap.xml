@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://fuji.is-a.dev/</loc>
+    <priority>1.00</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://fuji.is-a.dev/about</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Livestream Page -->
+  <url>
+    <loc>https://fuji.is-a.dev/livestream/</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Chatango Page -->
+  <url>
+    <loc>https://fuji.is-a.dev/chatango/</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Privacy Page -->
+  <url>
+    <loc>https://fuji.is-a.dev/privacy/</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Disclaimer Page -->
+  <url>
+    <loc>https://fuji.is-a.dev/disclaimer/</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Posts -->
+  <url>
+    <loc>https://fuji.is-a.dev/posts/shiori-mygo-gitakodo/</loc>
+    <priority>0.64</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://fuji.is-a.dev/posts/imbuhan/</loc>
+    <priority>0.64</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://fuji.is-a.dev/posts/my%20perenungan/</loc>
+    <priority>0.64</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://fuji.is-a.dev/posts/mengingat%20sesuatu%20dengan%20gampang/</loc>
+    <priority>0.64</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://fuji.is-a.dev/posts/metode%20immersion/</loc>
+    <priority>0.64</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://fuji.is-a.dev/posts/condensed%20audio/</loc>
+    <priority>0.64</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://fuji.is-a.dev/posts/menulis%20cerita%20komedi/</loc>
+    <priority>0.64</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://fuji.is-a.dev/posts/insecure/</loc>
+    <priority>0.64</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
