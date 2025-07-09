@@ -1,7 +1,7 @@
 ---
-title: Sering Lupa
-description: Belajar semalaman, tapi besoknya lupa semua? Gunakan Anki
-publishedAt: 2025-01-20T12:53:48.846Z
+title: Yang sering lupa, baca ini
+description: Belajar semalaman, tapi besoknya lupa 
+publishedAt: 2024-01-20T12:53:48.846Z
 slug: Mengingat Sesuatu Dengan Gampang
 image: /images/that-moment-you-32sfvb.jpg
 isPublish: true
@@ -11,36 +11,34 @@ category: Self Improvement
 
 \-﻿------------------------------﻿------------------------------﻿-
 
-Dulu, waktu kecil, saya selalu deg-degan setiap kali tes hafalan ngaji. Guru saya tegas, teman-teman yang lain hafalannya lancar, sementara saya? Sering lupa di tengah-tengah ayat.
+Dulu, waktu kecil, Saya selalu deg-degan setiap kali tes hafalan ngaji. Guru Saya tegas, teman-teman yang lain hafalannya lancar, sementara Saya? Sering lupa di tengah-tengah ayat.
 
-Pernah, di acara Maulid, saya naik ke panggung buat bacain surat dari *An-Naba, ‘Abasa, An-Nazi’at*. Ajaibnya, saya lancar-lancar aja. Nggak ada kendala.
+Pernah, di acara Maulid, Saya naik ke panggung buat bacain surat dari *An-Naba, ‘Abasa, An-Nazi’at*. Ajaibnya, Saya lancar-lancar aja. Ngga ada kendala.
 
-Tapi cara menghafalnya? Itu yang bikin jengkel.
+Tapi cara menghafalnya? 
 
-* Direkam sendiri? Malah krinj dengar suara sendiri .
-* Dihafalin semalaman? Bangun-bangun, hilang semua. 
+* Direkam dengar suara sendiri, cringe.
+* Dihafalin semalaman? Bangun tidur, lupa semua. 
 
-> Benar-benar butuh effort.
+> Benar-benar effort.
 
-Dari situ, saya tumbuh dengan keyakinan bahwa saya nggak jago menghafal. Informasi masuk kuping kiri, keluar kuping kanan. Hilang entah ke mana. meluap ~
+Dari situ, Saya tumbuh dengan yakin bahwa Saya ngga jago menghafal. Informasi masuk kuping kiri, keluar kuping kanan. meluap ~
 
-Saya selalu kagum sama orang-orang yang bisa mengingat detail kecil. Kayak temen saya yang bisa hafal plat nomor motor keluarganya satu-satu. Saya? Nama sodara sendiri aja lupa. 
+Saya selalu kagum sama orang-orang yang bisa mengingat detail kecil. Kayak temen Saya yang bisa hafal plat nomor motor keluarganya satu-satu. Saya? Nama saudara sendiri aja kadang lupa, maaf. 
 
-## Kenapa mengingat itu susah?
-
-Wait, sebelum lanjut: saya bukan dokter atau ahli otak. Saya hanya ingin berbagi pengalaman, jadi saya akan sertakan sumber agar kalian bisa menelusuri dan mengonfirmasi sendiri, Okh!
+## Bisakah punya ingatan kuat tanpa effort?
 
 ![Remember](/images/screenshot-from-2025-03-31-19-51-00.png "Remember")
 
-Begitu kata ChadGPT: otak hanya menyimpan yang sering digunakan. Kalau jarang, ya bakal lupa—terutama yang sering dipakai dalam kehidupan nyata.
+Kata ChatGPT: Otak hanya menyimpan yang sering digunakan. Kalau jarang, bakal lupa.
 
 ![herman](/images/what-is-the-forgetting-curve-and-how-do-you-combat-it.png "herman")
 
-Menurut penelitian Hermann Ebbinghaus, tanpa pengulangan, lebih dari 50% informasi bisa hilang dalam satu jam, dan sehari kemudian sekitar 33% sisanya juga lenyap.
+Menurut penelitian Hermann Ebbinghaus, tanpa repetisi, lebih dari 50% informasi bisa hilang dalam satu jam, dan sehari kemudian sekitar 33% sisanya juga lenyap.
 
 Sumber: [https://en.wikipedia.org/wiki/Forgetting_curve ](https://en.wikipedia.org/wiki/Forgetting_curve)
 
-Misalnya, saya belajar 8 jam dalam satu hari, tapi tidak pernah mengulang seminggu kemudian. Hasilnya? Hampir semua yang saya pelajari lenyap. 
+Contoh: Kamu belajar 8 jam dalam satu hari, tapi tidak pernah mengulang seminggu kemudian. Hasilnya? Hampir semua dipelajari kemungkinan bisa lenyap. 
 
 > Mirip file yang dihapus dari direktori, gatau ke mana? XD
 
@@ -53,7 +51,9 @@ Untuk mengingat lebih efektif, ada banyak hal yang harus dipertimbangkan:
 * **Seberapa sering harus mengulang?**
 * **Bagaimana tahu kapan harus mengulang?**
 
-Cukup ribet, kan? Nah, di sinilah *Anki* menyelesaikan semua masalah itu. Aplikasi ini secara otomatis mengatur semua itu, pakai AI algoritmanya.
+Cukup ribet, kan? 
+
+Perkenalkan Aplikasi *Anki*, Bisa menyelesaikan semua masalah tadi dengan otomatis mengatur semuanya dengan algoritmanya.
 
 \-﻿------------------------------﻿------------------------------﻿
 
@@ -61,20 +61,22 @@ Cukup ribet, kan? Nah, di sinilah *Anki* menyelesaikan semua masalah itu. Aplika
 
 ![Ankis](/images/desain-tanpa-judul.png "Ankis")
 
-Anki adalah aplikasi *flashcard*. Tahu *flashcard*? Ya, kartu kecil buat belajar, tapi ini dalam bentuk digital.
+Anki adalah aplikasi *flashcard*. 
 
-Bedanya dengan sekadar catatan? Anki pakai sistem *spaced repetition*—dia tahu kapan harus menampilkan ulang informasi sebelum kamu lupa.
+*flashcard*? Ya, kartu, tapi ini dalam bentuk digital.
+
+Bedanya dengan sekadar catatan adalah Anki pakai sistem *spaced repetition*, dia tahu kapan harus menampilkan ulang informasi sebelum kamu lupa.
 
 \-﻿--------------------------------﻿------------------------------﻿
 
 ### **Apa Saja yang Bisa Dilakukan dengan Anki?**
 
-Anki ini sering saya pakai untuk belajar bahasa Jepang, tapi fungsinya jauh lebih luas. Selain itu, banyak orang menggunakannya untuk:
+Anki ini sering Saya pakai untuk belajar bahasa Jepang, tapi fungsinya jauh lebih luas. Selain itu, banyak orang menggunakannya untuk:
 
 * **Belajar bahasa asing** – Menghafal kosakata dan tata bahasa.
-* **Dokter** – Mengingat istilah medis dan prosedur.
-* **Mahasiswa hukum** – Menghafal pasal-pasal hukum.
-* **Programmer** – Mengingat sintaks dan konsep pemrograman.
+* **Dokter** – Mengingat istilah medis dan prosedur yang ribet.
+* **Mahasiswa hukum** – Menghafal pasal-pasal hukum, buat lawyer biasanya.
+* **Programmer** – Mengingat sintax dan konsep pemrograman.
 
 Untuk cara pakainya, lebih enak menonton tutorial di YouTube. 
 
@@ -83,4 +85,4 @@ Anki cukup terkenal di luar Indonesia, jadi banyak sumber bagus yang bisa dipela
 \--------------------------------
 
 Setelah kenal Anki…\
-Sama aja sih. Masih lupa nama orang.
+Sama aja sih. Masih lupa nama saudara sendiri XD

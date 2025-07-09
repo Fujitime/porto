@@ -1,7 +1,7 @@
 ---
 title: Condensed Audio di Arch Linux dan turunannya
 description: Ingin belajar bahasa dengan cepat? Mulailah dengan listening dari audio, cara super efektif!
-publishedAt: 2025-03-20T03:16:28.267Z
+publishedAt: 2024-03-20T03:16:28.267Z
 slug: Condensed Audio
 image: /images/maxresdefault.jpg
 isPublish: true
@@ -21,7 +21,9 @@ Untuk contoh kali ini, kita akan menggunakan bahasa Jepang dan anime sebagai sum
 
 ### Kenapa Listening Dari Anime Saja Kurang?
 
-Setiap kali nonton anime, setengah waktu malah terbuang untuk mendengarkan opening, efek suara random, atau jeda doang. Oke, cukup! Kita bisa mengubah suara dari anime menjadi audio mirip podcast, full percakapan.
+Setiap kali nonton anime, setengah waktu "terbuang" untuk mendengarkan opening, efek suara random, atau hanya beberapa jeda.
+
+Kita bisa mengubah suara dari anime menjadi audio mirip podcast, full percakapan.
 
 - - -
 
@@ -46,7 +48,7 @@ Pastikan subtitle-nya dalam format **SRT** atau **ASS**, biar bisa diproses nant
 
 ### **Step 3: Install Tools yang Dibutuhkan**
 
-Biar nggak ribet, cuma butuh beberapa alat ini:
+Biar ngga ribet, cuma butuh beberapa alat ini:
 
 * **FFmpeg** → Untuk mengolah audio dan video.
 * **Python + Subs2cia** → Untuk mengekstrak subtitle dan mengatur audionya.
@@ -77,8 +79,10 @@ pip install subs2cia
 
 ### **Cek Hasilnya**
 
-Dari 25 menit episode anime, kamu bakal dapet sekitar 15 menit audio full percakapan. Nggak ada opening, nggak ada background noise, nggak ada jeda kosong. Cuma omongan karakter.
+Dari 25 menit episode anime, kamu bakal dapet sekitar 15 menit audio full percakapan. ngga ada opening, ngga ada background noise, ngga ada jeda. Hanya omongan karakter.
 
 Y﻿oi.
 
-Jika ada pertanyaan atau kendala, jangan ragu untuk bertanya di kolom komentar. Saya akan bantu (sebisanya)
+Jika ada pertanyaan atau kendala, Tidak perlu ragu untuk bertanya di kolom komentar. Saya akan bantu (sebisanya)
+
+#RagumuRugimu:V

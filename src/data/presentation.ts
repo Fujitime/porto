@@ -14,7 +14,7 @@ const presentation: Presentation = {
   mail: "racun1601@gmail.com",
   title: "Hi, I’m Fuji 👋",
   description:
-    "Halo! 👋 Saya Fuji Halim Rabani, seorang penjelajah internet",
+    "Halo! 👋 Saya Fuji Halim Rabani",
   socials: [
     {
       label: "Facebook",
