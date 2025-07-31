@@ -11,20 +11,20 @@ category: Self Improvement
 
 \-﻿------------------------------﻿------------------------------﻿-
 
-Dulu, waktu kecil, Saya selalu deg-degan setiap kali tes hafalan ngaji. Guru Saya tegas, teman-teman yang lain hafalannya lancar, sementara Saya? Sering lupa di tengah-tengah ayat.
+Dulu, waktu kecil, Saya selalu deg-degan kerap kali tes hafalan mengaji. Teman-teman yang lain cepat hafal, sementara Saya? Sering lupa.
 
-Pernah, di acara Maulid, Saya naik ke panggung buat bacain surat dari *An-Naba, ‘Abasa, An-Nazi’at*. Ajaibnya, Saya lancar-lancar aja. Ngga ada kendala.
+Pernah, di acara Maulid, Saya naik ke panggung buat bacain surat dari *An-Naba, ‘Abasa, An-Nazi’at*. Ajaibnya, Saya lancar-lancar aja. Ngga ada kendala, tuh.
 
-Tapi cara menghafalnya? 
+Tapi... cara menghafalnya?
+Sudah coba direkam, dengar suara sendiri dan diputar secara berulang, merinding.
+Dihafalin semalaman.
 
-* Direkam dengar suara sendiri, cringe.
-* Dihafalin semalaman? Bangun tidur, lupa semua. 
+besok paginya, hilang semua. Kayak ngga pernah belajar, Gaada bedanya.
 
-> Benar-benar effort.
+Benar-benar perjuangan.
+Dari situ, Saya tumbuh dengan yakin bahwa Saya ngga jago menghafal. Informasi masuk kuping kiri, keluar kuping kanan. 
 
-Dari situ, Saya tumbuh dengan yakin bahwa Saya ngga jago menghafal. Informasi masuk kuping kiri, keluar kuping kanan. meluap ~
-
-Saya selalu kagum sama orang-orang yang bisa mengingat detail kecil. Kayak temen Saya yang bisa hafal plat nomor motor keluarganya satu-satu. Saya? Nama saudara sendiri aja kadang lupa, maaf. 
+Saya selalu kagum sama orang-orang yang bisa mengingat detail kecil. Seperti temen Saya yang bisa hafal plat nomor motor keluarganya satu-satu. Saya? Nama saudara sendiri aja kadang lupa, maaf. 
 
 ## Bisakah punya ingatan kuat tanpa effort?
 

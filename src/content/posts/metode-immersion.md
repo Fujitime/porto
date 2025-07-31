@@ -10,21 +10,21 @@ category: Self Improvement
 
 \-﻿------------------------------﻿------------------------------﻿---------------------------------------------
 
-Dulu, Saya kira belajar bahasa Jepang itu tentang tekad. Kalau niat, pasti bisa. Tinggal beli buku, baca tiap hari, terus lama-lama jaog. Sesimpel itu.
+Dulu, Saya mengira bahwasanya belajar bahasa Jepang hanya modal tekad. Kalau niat, pasti bisa. Tinggal beli buku, baca tiap hari, terus lama-lama jago. Sesimpel itu.
 
 > I was wrong
 
-Punya buku ngga otomatis bikin Saya ngerti bahasa Jepang. Saya semangat di awal, buka halaman pertama, baca "Watashi wa Tom desu". Belajar partikel bejirr. 
+Punya buku bukan berarti otomatis bisa mengerti bahasa Jepang. Saya semangat di awal saja.
 
 ![batubadag](/images/37tjkj.jpg "batubadag")
 
-Saya coba metode klasik: **tulis ulang kanji ribuan kali di buku.** 
+Saya mencoba metode klasik: **tulis ulang kanji ribuan kali di buku.** 
 
 ![kanji](/images/48db3a94-2b18-4adc-9a04-3b4cfb88c98a.jpeg "kanji")
 
 > Jujur, Ketika Saya share di media sosial, di situ Saya ngerasa pinter dan keren.
 
-Katanya itu bikin hafal lebih cepet. Emang works, tapi… ya ampun, lama banget.
+Katanya itu bikin hafal lebih cepat. Emang works, tapi… ya ampun, lama banget.
 
 Baru beberapa hari keburu males duluan.
 
@@ -39,17 +39,15 @@ Saya coba cara lain: **Duolingo**.
 
 ![duolingo](/images/screenshot-from-2025-03-20-21-29-59.png "duolingo")
 
-Duolingo itu seru. Ada suara yang nyemangatin tiap kali Saya benar. Level naik, XP nambah, streak bertahan. Saya main sudah 500 hari lebih, asik. 
+Duolingo seru. Ada suara yang menyemangati kerap kali Saya benar.
+
+Level naik, XP nambah, streak bertahan. Saya main sudah 500 hari lebih, asik (bohong, aslinya terpaksa karena gamau kehilangan streak). 
 
 Tapi ada suatu problem...
 
-Suatu hari, Saya iseng nonton anime tanpa subtitle:
-- **Dua menit pertama:** "Pura-pura paham."
-- **Lima menit:** "Haa'la, udah biasa denger (tetep gapaham)."
-- **Sepuluh menit:** "Mereka lagi ngomongin apa jirr"
+Suatu hari, Saya iseng nonton anime tanpa subtitle.
 
-
-Nonton anime tanpa subtitle lalu gangerti maksud sebenarnya apa, merasa tidak keren!
+Nonton anime tanpa subtitle, Saya tidak menangkap maksud sebenarnya apa, merasa tidak keren :)
 
 ## **Menemukan Metode Immersion**  
 !["gambar"](/images/ahr0chm6ly9hc3nldhmuz3jvb3zlyxbwcy5jb20vaw1hz2vzlzvmodyxy2zknzeymdy4mda3mtzhmdqzns8xnzazmtm1ndg2x01hbmdhsw1tzxjzaw9ulmpwzw.webp "gambar")
@@ -64,7 +62,7 @@ Di forum, banyak orang luar cerita kalau mereka bisa paham bahasa Jepang dalam w
 Saya merasa tertinggal, Saya juga ingin bisa sejago mereka.  
 Tapi kenapa rasanya progres Saya lama banget?  
 
-Lalu, di salah satu komentar, ada yang nyebut Metode Immersion.
+Lalu, di salah satu komentar, ada yang menyebut Metode Immersion.
 
 Katanya, Ada metode belajar yang fun dengan menkonsumsi dalam bahasa itu setiap hari.  
 
@@ -82,7 +80,7 @@ Dengan melakukannya selama satu bulan penuh di channel native orang jepang.
 
 Saya mencobanya. 
 
-Dari mulai bangun tidur, sampai tidur kembali. input bahasa jepang tidak pernah kelewat, beneran nolep!
+Dari mulai bangun tidur, sampai tidur kembali. input bahasa jepang tidak pernah kelewat, beneran nolep.
 
 ### **Setelah satu bulan kemudian, Hasilnya?**  
 Memang, terlihat hasil bahwa bisa mengerti percakapan, basic.

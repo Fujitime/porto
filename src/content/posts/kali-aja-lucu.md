@@ -1,7 +1,7 @@
 ---
 title: Kali Aja Lucu
 description: Menulis Materi Standup Cerita Komedi
-publishedAt: 2023-01-25T09:57:24.615Z
+publishedAt: 2022-06-25T09:57:24.615Z
 slug: Menulis Cerita Komedi
 image: /images/bronya-anime.gif
 isPublish: true
@@ -12,20 +12,22 @@ Saya, Fuji. Dulu waktu sekolah pernah dicegat polisi.
 Maklum, sekolah Saya lokasinya strategis banget...
 
 
-Sebelah kanan SPN—Sekolah Polisi Negara. Sebelah kiri? RSJ. Rumah Sakit Jiwa.
+Sebelah kanan SPN (Sekolah Polisi Negara)
 
-Jadi kalau ada yang ketangkap polisi di sana, kita ngga tau dia bakal dibawa ke kantor polisi atau langsung ke rumah sakit jiwa.
+Sebelah kiri? RSJ (Rumah Sakit Jawa, eh Jiwa:v).
+
+Jadi, kalau ada yang ketangkap polisi di sana, kita ngga tau dia bakal dibawa ke kantor polisi atau langsung ke rumah sakit jiwa.
 
 -----------------------------------
 
 Suatu hari Saya berangkat sekolah, naik motor.
 
 ![mtrps](/images/motor.jpeg "mtors")
+Saya gapernah tau, bahwasanya razia berlaku untuk anak sekolah.
 
-Biasanya aman-aman aja, gak pernah ada razia.
+Setidaknya sampai saat itu...
 
-
-Tapi hari itu, tiba-tiba ada polisi nyegat. Saya kaget dong, “Lah, biasanya juga ngga ada??”
+Tapi hari itu, tiba-tiba ada polisi nyegat. Saya kaget dong, “Lah, biasanya juga ngga ada??” (Ada, cuman biasanya ngelamun jadi gamerhatiin)
 
 Dia liat Saya, “Sini!” sambil tangan kanannya memangil gitu... \[gemeteran]
 
@@ -46,9 +48,14 @@ Saya jawab, “Belum punya, Pak.”
 Dia: “Ohh belum punya yaa... STNK-nya bisa diperlihatkan?”
 
 
-Saya makin panik, “Maaf pak, ngga dibawa.”
+Saya makin panik dong
 
-Polisinya diem. Terus mikir.
+ 
+“Maaf, Pak… nggak dibawa,” ujar saya pelan.
+
+Polisinya diem, Saya juga diem.
+
+Kita diem-dieman 5 detik.
 
 Terus... “Oh yaudah.”
 
@@ -57,7 +64,7 @@ YA UDAH?! 🤯
 -----------
 
 
-Seakan ngomong, “Oh, ngga punya? Oh yaudah yaudah... hiduplah, hiduplah ~”
+“Oh, ngga punya? Oh yaudah yaudah... hiduplah, hiduplah ~”
 
 
 “Jirr... Saya ngga bawa SIM, gak bawa STNK, tapi bisa lewat gitu aja, nih??”
