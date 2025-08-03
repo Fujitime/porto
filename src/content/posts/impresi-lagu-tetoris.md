@@ -20,8 +20,6 @@ Pada 2024 silam, di beranda YouTube Music terdapat rekomendasi lagu yang cukup a
 
 ## Siapa Kasane Teto?
 
-
-
 ![teto and miku](/images/v1bgofyafdeobque47an.png "teto and miku")
 
 Dikenal sebagai Miku Merah (bercandanya), Kasane Teto adalah penyanyi virtual, mirip dengan Hatsune Miku. Awalnya diciptakan buat lelucon April Mop oleh komunitas forum Jepang, pada 1 April 2008. Vocaloid baru, katanya. 
@@ -30,11 +28,9 @@ Diperuntukkan menyusul popularitas Hatsune Miku (becandaan, jelasnya). Tapi aneh
 
 Debut resminya beneran terjadi pada tanggal 13 April 2008.
 
-
-
 ## Tetoris
 
-Lagunya berjudul **Tetris**, diserap dalam bahasa Jepang menjadi **Tetoris**, dinyanyikan oleh Teto. Jadilah: *Tetoris*.
+Lagunya berjudul **Tetris**, diserap dalam bahasa Jepang menjadi** *テトリス (te-to-ri-su)*** , dinyanyikan oleh Teto. Jadilah: *Tetoris*.
 
 Kenapa Tetris? Karena menggunakan theme musik dari game Tetris si game legendaris. Bahkan sampai sekarang, tiap dengar lagunya langsung keingat sama permainan Tetris itu sendiri. Sangat ikonik.
 
@@ -43,8 +39,6 @@ Tentu, hampir bukan Vocaloid jikalau tidak memiliki arti yang dark, menariknya l
 \-﻿------------------------------------------------------------------------------------------------------
 
 ## Musik dan Visualnya
-
-
 
 ***\-> [https://www.youtube.com/watch?v=Soy4jGPHr3g ](https://www.youtube.com/watch?v=Soy4jGPHr3g)***
 
@@ -72,12 +66,12 @@ Dan sudah didengerin tau enggak berapa? **Lebih dari 80 juta pendengar, lho.**
 **Gila sih.**\
 Kalian tahulah ya musik-musik Vocaloid Jepang begini, arti liriknya gimana 💀
 
-## Game Kehidupan (Sekaligus Kesimpulan)
+## Kesimpulan
 
 Lagu ini adalah sebuah mahakarya tentang game kehidupan yang penuh akan tekanan dan problem yang terus berdatangan. Lagu yang menggambarkan rasa cemas, malu, dan putus asa karena tekanan hidup, dan keinginan melarikan diri dari diri sendiri serta penilaian orang lain.
 
 **Ini best sekali lah.**\
-Walaupun nadanya terkesan ceria, tapi artinya tetap dark dan,buat saya pribadi relate. 
+Walaupun nadanya terkesan ceria, tapi artinya tetap dark dan buat saya pribadi relate. 
 
 Terutama bagian:
 
