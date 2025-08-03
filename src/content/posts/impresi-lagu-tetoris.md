@@ -42,35 +42,37 @@ Tentu, hampir bukan Vocaloid jikalau tidak memiliki arti yang dark, menariknya l
 
 ***\-> [https://www.youtube.com/watch?v=Soy4jGPHr3g ](https://www.youtube.com/watch?v=Soy4jGPHr3g)***
 
-\
-Diawali dengan suara Teto yang sejak awal terdengar ngegas, dengan lirik yang cukup absurd.
 
-Terus mulai ditambah instrumen lain seperti drum yang bikin lagu makin asix. Masuk ke prechorus yang gila sih.
+> Doushite sugu shitte shimau no  
+> Kyoushin de kurushinde shi batou  
+> Koushin de furu inseki mashouka?  
+> Warukunai
 
-Lalu pecahh di bagian reff, lagunya memang ciri khas abad 21 yang sedang tren short video, yang mana fokus di bagian reff. Oleh karena itu, sangat cocok untuk sebuah trend video pendek.
+
+Diawali dengan suara Teto yang sejak awal terdengar ngegas, dengan lirik yang cukup absurd, lalu mulai ditambah instrumen lain seperti drum yang bikin lagu makin asik, masuk ke pre-chorus yang gila sih, dan akhirnya pecah total di bagian reff.
+
+Menurut Saya, Lagunya memang ciri khas abad 21 yang sedang tren short video, yang mana fokus di bagian reff. Oleh karena itu, sangat cocok untuk sebuah trend video pendek.
 
 **Ref-nya seenak itu, woi.**\
 Kerasa bagian musik game Tetris-nya tapi dibalut indah sama instrumen dan vokalnya juga.
 
-Saya jamin ke kalian, sekali dengar reff-nya bakalan terngiang-ngiang karena *se easy listening itu* ♥️
+> Saya jamin ke kalian, sekali dengar reff-nya bakalan terngiang-ngiang karena *se easy listening itu* ♥️
 
-> Tidak hanya itu, visualnya juga mendukung.
-
-Terlebih pas mulai masuk ke bagian prechorus yang makin intens. Di sini yang bikin musiknya makin terasa enak di bagian ini.
 
 Melodinya mempertebal vokalnya, terus masuk ke bagian hook-nya yang kedua. Walaupun masih sama seperti reff pertama, tapi saya nggak bosan-bosan terlebih ke visualnya sih, lucu anjir, ada karakter cewek lucu berputar-putar lagi.
 
 Ketika saya cek di YouTube, nih lagu sudah dirilis sekitar 1 tahun yang lalu.\
-Dan sudah didengerin tau enggak berapa? **Lebih dari 80 juta pendengar, lho.**
+Dan sudah didengerin tau engga berapa? **Lebih dari 80 juta pendengar, lho.**
 
 **Gila sih.**\
 Kalian tahulah ya musik-musik Vocaloid Jepang begini, arti liriknya gimana 💀
 
+---------------------------------------------------------------------
 ## Kesimpulan
 
 Lagu ini adalah sebuah mahakarya tentang game kehidupan yang penuh akan tekanan dan problem yang terus berdatangan. Lagu yang menggambarkan rasa cemas, malu, dan putus asa karena tekanan hidup, dan keinginan melarikan diri dari diri sendiri serta penilaian orang lain.
 
-**Ini best sekali lah.**\
+**Ini best kali lah.**\
 Walaupun nadanya terkesan ceria, tapi artinya tetap dark dan buat saya pribadi relate. 
 
 Terutama bagian:
@@ -91,6 +93,8 @@ Selain aransemen yang bagus, juga memberi kesan *relate*, ditambah efek nostalgi
 Ngga hanya voice yang bagus, tapi pesona dari Kasane Teto juga cantik dan **waifuble** ♥️
 
 Saya beri **10/10**, perfect.
+
+
 
 - - -
 
