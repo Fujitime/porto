@@ -2,7 +2,7 @@
 title: Impresi Lagu Tetoris
 description: Saya bener-bener langsung jatuh cinta pada pendengaran pertama,
   suaranya cantik sekali, beneran.
-publishedAt: 2025-06-15T12:03:25.187Z
+publishedAt: 2025-03-15T12:03:25.187Z
 slug: tetoris
 image: /images/f75dcf431c0a0c2b5a1d91c4d0a796ba.1000x1000x1.png
 isPublish: true
@@ -32,7 +32,7 @@ Debut resminya beneran terjadi pada tanggal 13 April 2008.
 
 Lagunya berjudul **Tetris**, diserap dalam bahasa Jepang menjadi** *テトリス (te-to-ri-su)*** , dinyanyikan oleh Teto. Jadilah: *Tetoris*.
 
-Kenapa Tetris? Karena menggunakan theme musik dari game Tetris si game legendaris. Bahkan sampai sekarang, tiap dengar lagunya langsung keingat sama permainan Tetris itu sendiri. Sangat ikonik.
+Kenapa Tetoris? Karena menggunakan theme musik dari game Tetris si game legendaris. Bahkan sampai sekarang, tiap dengar lagunya langsung keingat sama permainan Tetris itu sendiri. Sangat ikonik.
 
 Tentu, hampir bukan Vocaloid jikalau tidak memiliki arti yang dark, menariknya lagu satu ini juga demikian, dark syekali.
 
