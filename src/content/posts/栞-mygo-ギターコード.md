@@ -1,7 +1,7 @@
 ---
 title: 栞 - MyGO - ギターコード
 description: 栞 - MyGO!!!!! ギターコード
-publishedAt: 2025-05-15T15:30:35.860Z
+publishedAt: 2025-02-23T15:30:35.860Z
 slug: shiori-mygo-gitakodo
 image: /images/19db83ed0b7333eb83b98bad8ac07c11.jpg
 isPublish: true
