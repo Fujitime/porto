@@ -8,7 +8,7 @@ image: /images/f75dcf431c0a0c2b5a1d91c4d0a796ba.1000x1000x1.png
 isPublish: true
 category: Others
 ---
-**Te‑te‑te tetoteto, te‑te‑te tetoris.** Itulah yang ada di kepala saya akhir-akhir ini. Ngga ngerti lagi,ini lagu bagus banget. Saya bener-bener langsung jatuh cinta pada pendengaran pertama, beneran.
+**Te‑te‑te tetoteto, te‑te‑te tetoris.** Itulah yang ada di kepala saya akhir-akhir ini. Ngga ngerti lagi, ini lagu bagus banget. Saya bener-bener langsung jatuh cinta pada pendengaran pertama, beneran.
 
 ![teto](/images/f75dcf431c0a0c2b5a1d91c4d0a796ba.1000x1000x1.png "tetoris")
 
@@ -20,8 +20,6 @@ Pada 2024 silam, di beranda YouTube Music terdapat rekomendasi lagu yang cukup a
 
 ## Siapa Kasane Teto?
 
-
-
 ![teto and miku](/images/v1bgofyafdeobque47an.png "teto and miku")
 
 Dikenal sebagai Miku Merah (bercandanya), Kasane Teto adalah penyanyi virtual, mirip dengan Hatsune Miku. Awalnya diciptakan buat lelucon April Mop oleh komunitas forum Jepang, pada 1 April 2008. Vocaloid baru, katanya. 
@@ -29,8 +27,6 @@ Dikenal sebagai Miku Merah (bercandanya), Kasane Teto adalah penyanyi virtual, m
 Diperuntukkan menyusul popularitas Hatsune Miku (becandaan, jelasnya). Tapi anehnya, justru menjadi projek serius.
 
 Debut resminya beneran terjadi pada tanggal 13 April 2008.
-
-
 
 ## Tetoris
 
@@ -43,8 +39,6 @@ Tentu, hampir bukan Vocaloid jikalau tidak memiliki arti yang dark, menariknya l
 \-﻿------------------------------------------------------------------------------------------------------
 
 ## Musik dan Visualnya
-
-
 
 ***\-> [https://www.youtube.com/watch?v=Soy4jGPHr3g ](https://www.youtube.com/watch?v=Soy4jGPHr3g)***
 
