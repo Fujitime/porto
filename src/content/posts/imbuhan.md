@@ -1,7 +1,7 @@
 ---
 title: Imbuhan ternyata rumit
 description: Apa, sih, imbuhan itu sebenarnya?
-publishedAt: 2025-04-10T15:22:51.271Z
+publishedAt: 2025-01-21T15:22:51.271Z
 slug: Imbuhan
 image: /images/5b5c52db-037b-4563-ae2e-ea52c79048d8.png
 isPublish: true
