@@ -8,7 +8,7 @@ image: /images/f75dcf431c0a0c2b5a1d91c4d0a796ba.1000x1000x1.png
 isPublish: true
 category: Others
 ---
-**Te‑te‑te tetoteto, te‑te‑te tetoris.** Itulah yang ada di kepala saya akhir-akhir ini. Ngga ngerti lagi,ini lagu bagus banget. Saya bener-bener langsung jatuh cinta pada pendengaran pertama, beneran.
+**Te‑te‑te tetoteto, te‑te‑te tetoris.** Itulah yang ada di kepala saya akhir-akhir ini. Ngga ngerti lagi, ini lagu bagus banget. Saya bener-bener langsung jatuh cinta pada pendengaran pertama, beneran.
 
 ![teto](/images/f75dcf431c0a0c2b5a1d91c4d0a796ba.1000x1000x1.png "tetoris")
 
@@ -42,12 +42,10 @@ Tentu, hampir bukan Vocaloid jikalau tidak memiliki arti yang dark, menariknya l
 
 ***\-> [https://www.youtube.com/watch?v=Soy4jGPHr3g ](https://www.youtube.com/watch?v=Soy4jGPHr3g)***
 
-
-> Doushite sugu shitte shimau no  
-> Kyoushin de kurushinde shi batou  
-> Koushin de furu inseki mashouka?  
+> Doushite sugu shitte shimau no\
+> Kyoushin de kurushinde shi batou\
+> Koushin de furu inseki mashouka?\
 > Warukunai
-
 
 Diawali dengan suara Teto yang sejak awal terdengar ngegas, dengan lirik yang cukup absurd, lalu mulai ditambah instrumen lain seperti drum yang bikin lagu makin asik, masuk ke pre-chorus yang gila sih, dan akhirnya pecah total di bagian reff.
 
@@ -58,7 +56,6 @@ Kerasa bagian musik game Tetris-nya tapi dibalut indah sama instrumen dan vokaln
 
 > Saya jamin ke kalian, sekali dengar reff-nya bakalan terngiang-ngiang karena *se easy listening itu* ♥️
 
-
 Melodinya mempertebal vokalnya, terus masuk ke bagian hook-nya yang kedua. Walaupun masih sama seperti reff pertama, tapi saya nggak bosan-bosan terlebih ke visualnya sih, lucu anjir, ada karakter cewek lucu berputar-putar lagi.
 
 Ketika saya cek di YouTube, nih lagu sudah dirilis sekitar 1 tahun yang lalu.\
@@ -67,7 +64,8 @@ Dan sudah didengerin tau engga berapa? **Lebih dari 80 juta pendengar, lho.**
 **Gila sih.**\
 Kalian tahulah ya musik-musik Vocaloid Jepang begini, arti liriknya gimana 💀
 
----------------------------------------------------------------------
+- - -
+
 ## Kesimpulan
 
 Lagu ini adalah sebuah mahakarya tentang game kehidupan yang penuh akan tekanan dan problem yang terus berdatangan. Lagu yang menggambarkan rasa cemas, malu, dan putus asa karena tekanan hidup, dan keinginan melarikan diri dari diri sendiri serta penilaian orang lain.
@@ -93,8 +91,6 @@ Selain aransemen yang bagus, juga memberi kesan *relate*, ditambah efek nostalgi
 Ngga hanya voice yang bagus, tapi pesona dari Kasane Teto juga cantik dan **waifuble** ♥️
 
 Saya beri **10/10**, perfect.
-
-
 
 - - -
 
